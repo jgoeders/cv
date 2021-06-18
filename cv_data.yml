@@ -262,6 +262,63 @@ publications:
         pages: vol 7, no. 2,  pp. 6:1–30
         date: Jul 2014
 
+  - name: Peer-Reviewed International Conference Publications
+    publications:
+      - authors: Benjamin James, and Jeffrey Goeders
+        title: Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems
+        series: Design, Automation and Test in Europe Conference (DATE)
+        date: Feb 2021
+
+      - authors: Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings
+        title: Using Novel Configuration Techniques for Accelerated FPGA Aging
+        series: International Conference on Field-Programmable Logic and Applications (FPL)
+        date: Aug 2020
+
+      - authors: Matthew Ashcraft and Jeffrey Goeders
+        title: Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
+        series: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2019
+        
+      - authors: Wesley Stirk and Jeffrey Goeders
+        title: Implementation and Design Space Exploration of a Turbo Decoder in High-Level Synthesis
+        series: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+        date: Dec 2019
+
+      - authors: Daniel Holanda Noronha, Ruizhe Zhao, Zhiqiang Que, Jeffrey Goeders, Wayne Luk and Steve Wilton
+        title: An Overlay for Rapid FPGA Debug of Machine Learning Applications
+        series: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2019
+
+      - authors: Daniel Holanda Noronha, Ruizhe Zhao, Jeffrey Goeders, Wayne Luk, and Steven J.E. Wilton
+        title: On-chip FPGA Debug Instrumentation for Machine Learning Applications
+        series: International Symposium on Field-Programmable Gate Arrays (FPGA)
+        pages: pp. 110-115
+        date: Feb 2019
+
+      - authors: Matthew Ashcraft and Jeffrey Goeders
+        title: Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
+        series: International Conference on Field Programmable Technology (FPT)
+        pages: pp. 354-357
+        date: Dec 2018
+
+      - authors: Al-Shahna Jamal, Jeffrey Goeders and Steve Wilton
+        title: An FPGA Overlay Architecture Supporting Rapid Implementation of Functional Changes during On-Chip Debug
+        series: International Conference on Field Programmable Logic and Applications (FPL)
+        date: Aug 2018
+
+16.	Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings, “Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), May 2018.
+17.	Al-Shahna Jamal, Jeffrey Goeders, and Steven J.E. Wilton, “Architecture Exploration for HLS-Oriented FPGA Debug Overlays,” in International Symposium on Field-Programmable Gate Arrays (FPGA), Feb 2018.
+18.	Pavan Kumar Bussa, Jeffrey Goeders, and Steven JE Wilton, “Accelerating in-system FPGA debug of high-level synthesis circuits using incremental compilation techniques,” in International Conference on Field Programmable Logic and Applications (FPL), Sep 2017.
+19.	Jeffrey Goeders, “Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), May 2017.
+20.	Jeffrey Goeders, and Steven J.E. Wilton, “Quantifying observability for in-system debug of high-level synthesis circuits,” in International Conference on Field Programmable Logic and Applications (FPL), pp. 1–11, Aug. 2016.
+21.	Jeffrey Goeders, and Steven J.E. Wilton, “Using Round-Robin Tracepoints to Debug Multithreaded HLS Circuits on FPGAs,” in International Conference on Field Programmable Technology (FPT), Dec. 2015.
+22.	Jeffrey Goeders, and Steven J.E. Wilton, “Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), pp. 127–134, May 2015. BEST PAPER AWARD.
+23.	Jeffrey Goeders, and Steven J.E. Wilton, “Effective FPGA Debug for High-Level Synthesis Generated Circuits,” in International Conference on Field Programmable Logic and Applications (FPL), pp. 1–8, Sep. 2014.
+24.	Eddie Hung, Jeffrey Goeders, and Steven J.E. Wilton, “Faster FPGA Debug: Efficiently Coupling Trace Instruments with User Circuitry,” in International Symposium on Applied Reconfigurable Computing (ARC), pp. 73–84, Apr. 2014.
+25.	Jeffrey Goeders, and Steven J.E. Wilton, “VersaPower: Power Estimation for Diverse FPGA Architectures,” in International Conference on Field Programmable Technology (FPT), pp. 229–234, Dec. 2012.
+26.	Jonathan Rose, Jason Luu, Chi Wai Yu, Opal Densmore, Jeffrey Goeders, Andrew Somerville, Kenneth B. Kent, Peter Jamieson, and Jason Anderson, “The VTR Project: Architecture and CAD for FPGAs from Verilog to Routing,” in International Symposium on Field Programmable Gate Arrays (FPGA), pp. 77 – 86, Feb. 2012.
+27.	Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton, “Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition,” in International Conference on Reconfigurable Computing and FPGAs (ReConFig), pp. 41–48, Dec. 2011.
+
 
   - name: Conferences
     publications:
