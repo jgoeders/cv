@@ -527,6 +527,62 @@ talks:
         location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
         date: May 2014
 
+teaching_instructor:
+  - code: ECEN 220
+    title: Fundamentals of Digital Systems
+    terms:
+      - Spring 2019
+      - Fall 2019
+
+  - code: ECEN 330
+    title: Intro to Embedded Systems Programming 
+    terms:
+      - Fall 2016
+      - Fall 2017
+      - Fall 2018
+      - Spring 2020
+      - Fall 2020
+      - Spring 2021
+      - Fall 2021
+
+  - code: ECEN 427
+    title: Embedded Systems
+    terms:
+      - Fall 2021
+
+  - code: ECEN 522R
+    title: High-Level Digital Design Automation
+    terms:
+      - Winter 2017
+
+  - code: ECEN 625
+    title: Compilation Strategies for High-Performance Programs 
+    terms:
+      - Winter 2019
+      - Winter 2021
+
+  - code: ECEN 629
+    title: Reconfigurable Computing Systems 
+    terms:
+      - Winter 2018
+      - Winter 2020
+
+teaching_ta:
+  - code: EECE 381
+    title: Computer Systems Design Studio
+    appointments: 7
+
+  - code: EECE 465
+    title: Microcomputer Systems Design
+    appointments: 1
+
+  - code: EECE 353
+    title: Digital Systems Design
+    appointments: 3
+
+  - code: EECE 259
+    title: Introduction to Microcomputers
+    appointments: 2
 
 grants:
   - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services
