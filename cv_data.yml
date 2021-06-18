@@ -584,6 +584,24 @@ teaching_ta:
     title: Introduction to Microcomputers
     appointments: 2
 
+course_development:
+  - class: "ECEN 427: Embedded System Design (BYU)"
+    items:
+      - Developed major revisions to the lab content of the class in conjunction with the instructor, Brad Hutchings.
+      - New lab content focused on development for Linux embedded systems
+      - "New labs give students a full-stack experience: creating a new digital circuit IP, integrating it into a Linux system, developing a Linux kernel driver, and finally integrating it into application code."
+
+  - class: "ECEN 625: High-Level Digital Design Automation (BYU)"
+    items:
+      - Major revisions of existing course to introduce new assignments, lecture material, current research topics, and hands-on experience with major commercial tools.
+      - Developed four new assignments which give students experience with commercial designs, high-level synthesis algorithms, large open-source tools, including the LLVM compiler infrastructure.
+
+  - class: "EECE 381: Computer Systems Design Studio (UBC)"
+    items:
+      - Co-developed with Professor Steve Wilton at The University of British Columbia.
+      - Project-based course designed to give students real-world technical project skills.  Students work in groups to identify a real-world market, identify constraints and requirements, plan project milestones, implement hardware and software, and present and report on their accomplishments.  
+
+
 grants:
   - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services
     agency: NSF

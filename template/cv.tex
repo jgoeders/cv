@@ -45,7 +45,7 @@
 
 
 % add the symbols for email and phone contact data
-\fancyhead[r]{Philip B. Lundrigan}
+\fancyhead[r]{\VAR{name}}
 \fancyhead[l]{}
 \fancyfoot[c]{\thepage}
 
@@ -149,6 +149,7 @@
 
 
 
+
     %%%%%%  Talks  %%%%%%%%%%%%%%%
     \section*{Talks}
     \BLOCK{ for type in talks }
@@ -161,6 +162,27 @@
       \BLOCK{ endfor }
     \end{enumerate}
     \BLOCK{ endfor }
+
+    %%%%%%  Teaching  %%%%%%%%%%%%%%%
+    \section*{Teaching Experience}
+      \subsection*{Instructor}
+      \begin{itemize}
+        \BLOCK{for course in teaching_instructor}
+          \item \textbf{\VAR{course.code}}: \VAR{course.title} (%
+          \BLOCK{for offering in course.terms}
+          \VAR{offering}\BLOCK{if not loop.last}, \BLOCK{endif}%
+          \BLOCK{endfor}
+        )
+        \BLOCK{endfor}
+      \end{itemize}
+
+      \subsection*{Teaching Assistant}
+      \begin{itemize}
+        \BLOCK{for course in teaching_ta}
+          \item \textbf{\VAR{course.code}}: \VAR{course.title} (\VAR{course.appointments} appointment\BLOCK{if course.appointments > 1}s\BLOCK{endif})
+        \BLOCK{endfor}
+      \end{itemize}
+
 
     \begin{center}
 
