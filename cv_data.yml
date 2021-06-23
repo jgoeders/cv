@@ -527,7 +527,10 @@ talks:
         location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
         date: May 2014
 
-
+teaching:
+  - name: Instructor
+    classes: 
+      - 
 grants:
   - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services
     agency: NSF
