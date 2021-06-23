@@ -41,6 +41,7 @@
 \vbadness=10000
 \vfuzz=50pt
 
+\newcolumntype{G}{>{\raggedleft\arraybackslash}p{2cm}}
 \newcolumntype{Z}{>{\raggedleft\arraybackslash}p{3cm}}
 
 
@@ -91,13 +92,6 @@
     \end{longtable}
     \BLOCK{ endfor }
     \BLOCK{- endmacro }
-
-    \BLOCK{ macro list(items) -}
-    \begin{enumerate}
-      \VAR{ caller(item) }
-    \end{enumerate}
-    \BLOCK{- endmacro }
-
 
     %%%%%%  RESEARCH INTERESTS  %%%%%%%%%%%%%%%%%%%%%%%%
     % \section{Research Interests}
@@ -229,7 +223,7 @@ i10-index: \VAR{citations.i10index}
 
 %%%%%%  Grants  %%%%%%%%%%%%%%%
 \section{Grants}
-\begin{longtable}[1\linewidth]{Zp{13cm}}
+\begin{longtable}[1\linewidth]{Gp{15cm}}
     \BLOCK{ for item in grants.funded }
     \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
     \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
