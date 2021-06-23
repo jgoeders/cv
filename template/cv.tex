@@ -225,33 +225,27 @@ i10-index: \VAR{citations.i10index}
     % \vspace{0.1in}
 \BLOCK{endfor}
 
-
 \begin{center}
 
-\BLOCK{ call(item) table(service) }
-\textbf{\VAR{ item.year }} & \VAR{ item.activities } \\
-\BLOCK{ endcall }
-
-    %%%%%%  Grants  %%%%%%%%%%%%%%%
-    \section{Grants}
-    \begin{longtable}[1\linewidth]{Zp{13cm}}
-        \BLOCK{ for item in grants }
-        \textbf{\VAR{item.start} to} & \textbf{\VAR{item.title | default("", True)}}                                       \\
-        \textbf{\VAR{item.end}}       & \VAR{ item.agency }, \$\VAR{ item.amount }                                        \\
-                                     & \textit{Principal Investigator:} \VAR{ item.pi }\BLOCK{ if item.co_pis }              \\
-                                     & \textit{Co-Investigators:} \VAR{ item.co_pis } \BLOCK{ endif }                        \\
-        \\
-        \BLOCK{ endfor }
-    \end{longtable}
+%%%%%%  Grants  %%%%%%%%%%%%%%%
+\section{Grants}
+\begin{longtable}[1\linewidth]{Zp{13cm}}
+    \BLOCK{ for item in grants.funded }
+    \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
+    \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
+           & \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }                                        \\
+           \\
+    \BLOCK{ endfor }
+\end{longtable}
 
 
 
-    %%%%%%  Projects  %%%%%%%%%%%%%%%
-    \section{Open Source Projects}
-    \BLOCK{ call(item) table(projects) }
-    \textbf{\VAR{item.start}}         & \href{\VAR{item.link}}{\textbf{\VAR{item.title}}} \\
-    & \VAR{item.description | md2latex} \\
-    \BLOCK{ endcall }
+    % %%%%%%  Projects  %%%%%%%%%%%%%%%
+    % \section{Open Source Projects}
+    % \BLOCK{ call(item) table(projects) }
+    % \textbf{\VAR{item.start}}         & \href{\VAR{item.link}}{\textbf{\VAR{item.title}}} \\
+    % & \VAR{item.description | md2latex} \\
+    % \BLOCK{ endcall }
 
 
 \end{center}
