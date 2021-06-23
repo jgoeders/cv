@@ -116,81 +116,121 @@
     \BLOCK{ endfor }
     \BLOCK{ endcall }
 
-    %%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    \section{Professional Experience}
-    \BLOCK{ call(item) table(professional) }
-    \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.university}}, \emph{\VAR{item.position}} \\
-    \textbf{\VAR{item.end}} & \VAR{item.department} \\
-    \\
-    \BLOCK{ endcall }
+%%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Professional Experience}
+\BLOCK{ call(item) table(professional) }
+  \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.university}}, \emph{\VAR{item.position}} \\
+  \textbf{\VAR{item.end}} & \VAR{item.department} \\
+  \\
+\BLOCK{ endcall }
     
-  \end{center}
+\end{center}
   
 
-    %%%%%%  Publications  %%%%%%%%%%%%%%%
-    \section*{Publications}
-    \BLOCK{ for type in publications }
-
-    \subsection*{\VAR{type.name}}
-    \BLOCK{if "Conference" in type.name}
+%%%%%%  Publications  %%%%%%%%%%%%%%%
+\section*{Publications}
+\BLOCK{ for type in publications }
+  % Publication type
+  \subsection*{\VAR{type.name}}
+  \BLOCK{if "Conference" in type.name}
     Note:  Conferences which were refereed by abstract, or had acceptance rates close to 100\% are not listed in this section.  Most relevant conferences in this field are the "4-Fs": Int'l Symposium on Field-Programmable Gate Arrays (FPGA), Int'l Conf. on Field-Programmable Technology (FPT), Int'l Conf. on Field-Programmable Logic and Applications (FPL), Int'l Conf. on Field-Config. Custom Computing Machines (FCCM).  Acceptance rates for these conferences are regularly below 30\%. 
-    \BLOCK{endif}
-    
-    \begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
-      \BLOCK{ for pub in type.publications }
-      
+  \BLOCK{endif}
+
+  \begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
+    \BLOCK{ for pub in type.publications }  
       \item \BLOCK{if pub.status}(\textit{\VAR{pub.status}}) \BLOCK{endif}\VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', in \VAR{pub.series}, \BLOCK{if pub.publisher}\VAR{pub.publisher}, \BLOCK{endif}\BLOCK{if pub.pages}\VAR{pub.pages}, \BLOCK{endif}\VAR{pub.date}.\BLOCK{if pub.note}\textbf{\VAR{pub.note}}.\BLOCK{endif}
-      \BLOCK{ endfor }
-    \end{enumerate}
     \BLOCK{ endfor }
+  \end{enumerate}
+\BLOCK{ endfor }
 
 
+%%%%%%  Talks  %%%%%%%%%%%%%%%
+\section*{Talks}
+\BLOCK{ for type in talks }
 
+\subsection*{\VAR{type.name} }
 
+\begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
+  \BLOCK{ for pub in type.talks }
+  \item \VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', at \VAR{pub.location}, \VAR{pub.date}.
+  \BLOCK{ endfor }
+\end{enumerate}
+\BLOCK{ endfor }
 
+%%%%%%  Teaching  %%%%%%%%%%%%%%%
+\section*{Teaching Experience}
+  
+% Instructor
+\subsection*{Instructor}
+\begin{itemize}
+  \BLOCK{for course in teaching_instructor}
+    \item \textbf{\VAR{course.code}}: \VAR{course.title} (%
+    \BLOCK{for offering in course.terms}
+    \VAR{offering}\BLOCK{if not loop.last}, \BLOCK{endif}%
+    \BLOCK{endfor}
+  )
+  \BLOCK{endfor}
+\end{itemize}
 
-    %%%%%%  Talks  %%%%%%%%%%%%%%%
-    \section*{Talks}
-    \BLOCK{ for type in talks }
+\subsection*{Teaching Assistant}
+\begin{itemize}
+  \BLOCK{for course in teaching_ta}
+    \item \textbf{\VAR{course.code}}: \VAR{course.title} (\VAR{course.appointments} appointment\BLOCK{if course.appointments > 1}s\BLOCK{endif})
+  \BLOCK{endfor}
+\end{itemize}
 
-    \subsection*{\VAR{type.name} }
-    
-    \begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
-      \BLOCK{ for pub in type.talks }
-      \item \VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', at \VAR{pub.location}, \VAR{pub.date}.
-      \BLOCK{ endfor }
-    \end{enumerate}
-    \BLOCK{ endfor }
-
-    %%%%%%  Teaching  %%%%%%%%%%%%%%%
-    \section*{Teaching Experience}
-      \subsection*{Instructor}
-      \begin{itemize}
-        \BLOCK{for course in teaching_instructor}
-          \item \textbf{\VAR{course.code}}: \VAR{course.title} (%
-          \BLOCK{for offering in course.terms}
-          \VAR{offering}\BLOCK{if not loop.last}, \BLOCK{endif}%
-          \BLOCK{endfor}
-        )
-        \BLOCK{endfor}
-      \end{itemize}
-
-      \subsection*{Teaching Assistant}
-      \begin{itemize}
-        \BLOCK{for course in teaching_ta}
-          \item \textbf{\VAR{course.code}}: \VAR{course.title} (\VAR{course.appointments} appointment\BLOCK{if course.appointments > 1}s\BLOCK{endif})
-        \BLOCK{endfor}
-      \end{itemize}
-
+%%%%%%  Course / Seminar Development  %%%%%%%%%%%%%%%
+\section*{Course \& Seminar Development}
+\BLOCK{for course in course_development}
+  \textbf{\VAR{course.name}}\BLOCK{if course.url} - \url{\VAR{course.url}}\BLOCK{endif}
+  \begin{itemize}
+    \BLOCK{for item in course.bullets}
+      \item \VAR{item}
+    \BLOCK{endfor}
+  \end{itemize}
+\BLOCK{endfor}
 
     \begin{center}
 
-    %%%%%%  Service  %%%%%%%%%%%%%%%
-    \section{Service}
-    \BLOCK{ call(item) table(service) }
-    \textbf{\VAR{ item.year }} & \VAR{ item.activities } \\
-    \BLOCK{ endcall }
+%%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Employment Experience}
+
+\BLOCK{ call(item) table(experience) }
+\BLOCK{ if item.title }
+\textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}}      & \textbf{\VAR{item.title}}, \emph{\VAR{item.company}} \\
+\textbf{\VAR{item.end}}           & \VAR{item.description | md2latex} \\
+\BLOCK{ endif }
+\BLOCK{ endcall }
+
+%%%%%% CITATIONS  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{center}
+
+\section{Citations}
+Citations: \VAR{citations.citations} \\
+h-index: \VAR{citations.hindex} \\
+i10-index: \VAR{citations.i10index}
+
+
+
+%%%%%%  Professional Activities  %%%%%%%%%%%%%%%
+\section{Professional Activities}
+\BLOCK{for activity_type in service}
+  \noindent\textbf{\VAR{activity_type.type}} \\
+  \BLOCK{if activity_type.venues}
+    \BLOCK{for item in activity_type.venues}
+    \VAR{item.name} - \VAR{item.years}  \\
+    \BLOCK{endfor}
+    \BLOCK{endif}
+
+    % \vspace{0.1in}
+\BLOCK{endfor}
+
+
+\begin{center}
+
+\BLOCK{ call(item) table(service) }
+\textbf{\VAR{ item.year }} & \VAR{ item.activities } \\
+\BLOCK{ endcall }
 
     %%%%%%  Grants  %%%%%%%%%%%%%%%
     \section{Grants}
@@ -204,15 +244,6 @@
         \BLOCK{ endfor }
     \end{longtable}
 
-    %%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \section{Professional Experience}
-
-    \BLOCK{ call(item) table(experience) }
-    \BLOCK{ if item.title }
-    \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.title}}, \emph{\VAR{item.company}} \\
-    \textbf{\VAR{item.end}}           & \VAR{item.description | md2latex} \\
-    \BLOCK{ endif }
-    \BLOCK{ endcall }
 
 
     %%%%%%  Projects  %%%%%%%%%%%%%%%

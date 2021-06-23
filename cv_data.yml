@@ -133,60 +133,35 @@ professional:
 #           designs.
 
 experience:
-  - start: May 2015
-    end: August 2015
-    title: Network Scientist Intern
-    company: Raytheon BBN Technologies
-    description: |
-      Worked on DARPA's Squad X project, designing an architecture for
-              flexible distribution of content and information. Using ns3,
-              built a framework to measure effectiveness of various content
-              distribution approaches.
+  - start: 2011 to 2016
+    title: Teaching Assistant
+    company: The University of British Columbia
+    description: Department of Electrical and Computer Engineering
 
-  - start: May 2014
-    end: August 2014
-    title: Network Scientist Intern
-    company: Raytheon BBN Technologies
-    description: |
-      Worked on DARPA's Content-Based Mobile Edge Networking (CBMEN) project
-              using Android phones. Improved, measured, and tested the
-              design of the basic ad hoc networking functionality.
-              Thoroughly studied the benefits of using asynchronous I/O
-              compared to synchronous I/O for all network communication.
-              Developed new method for managing multiple TCP connections
-              with neighboring nodes. Built Android application and deployed
-              on 15 devices in the field to measure the improvements.
-              Collaborated closely with three other researchers to improve
-              various components of the system.
+  - start: 2013, Summer
+    title: EDA Software Developer, Internship
+    company: Blackcomb Design Automation
+    description: Vancouver, BC, Canada
 
-  # Extra space
-  # - title:
-  # - title:
-  # - title:
+  - start: 2010, Summer
+    title: Firmware Developer, Internship
+    company: PMC-Sierra
+    description: Burnaby, BC, Canada
 
-  - start: July 2013
-    end: January 2014
-    title: Wireless Researcher
-    company: Xandem Technology
-    description: >
-      Built system for fall detection and localization using wireless sensor
-              network for elderly care. Lead development of small team to
-              implemented real-time room-level localization algorithm using
-              machine learning. Worked with raw wireless data to develop
-              features for machine learning algorithm. Conducted experiments
-              to evaluate and measure the accuracy of localization
-              algorithm.
-  # Demonstrated working prototype to potential customers.
+  - start: 2009, Summer    
+    title: Undergraduate Researcher
+    company: High-Performance Computing Lab
+    description: University of Toronto, Toronto, ON, Canada
 
-  - start: April 2012
-    end: August 2012
-    title: Software Engineering Intern
-    company: Ancestry.com
-    description: >
-      Researched an alternative way to store and search large amounts of
-              data using Apache Solr. Built testing framework to compare
-              storage alternatives. Built a new wiki system for the
-              development team to use.
+  - start: 2006 to 2009
+    title: Software and Database Developer
+    company: Bombardier Aerospace
+    description: Toronto, ON, Canada
+
+citations:
+  hindex: 10
+  i10index: 11
+  citations: 992
 
 publications:
   # - name: Under Review
@@ -401,8 +376,41 @@ publications:
         date: Jul 2018
 
 service:
-  - year: 2020
-    activities: "TPCs: IPSN, WoWMoM (publicity co-chair); Reviewer: Transactions on Mobile Computing"
+  - type: Member of IEEE and ACM
+
+  - type: Contest Organizer
+    venues: 
+      - name: Design Automation Conference (DAC) System Design Contest
+        years: 2020 to 2021
+
+  - type: Information Director
+    venues:
+      - name: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        years: 2018 to Present
+  
+  - type: Technical Program Committee (TPC) Member
+    venues:
+      - name: International Symposium on Field-Programmable Gate Arrays (FPGA)
+        years: 2017 to Present
+      - name: International Conference on Field-Programmable Technology (FPT)
+        years: 2016 to 2019
+      - name: International Conference on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2018, 2020 to Present
+
+  - type: Reviewer
+    venues:
+      - name: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        years: 2016 to Present
+      - name: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+        years: 2016 to Present
+      - name: IEEE Transactions on Nuclear Science (TNS)
+        years: 2018 to Present
+      - name: IEEE Transactions on Computers (TC)
+        years: 2019 to 2020
+      - name: ACM Transactions on Architecture and Code Optimization (TACO)
+        years: 2017
+      - name: International Journal of Reconfigurable Computing
+        years: 2016
 
 talks:
   - name: Invited Talks
@@ -585,22 +593,42 @@ teaching_ta:
     appointments: 2
 
 course_development:
-  - class: "ECEN 427: Embedded System Design (BYU)"
-    items:
+  - name: "ECEN 427: Embedded System Design (BYU)"
+    url: https://byu-cpe.github.io/ecen427/
+    bullets:
       - Developed major revisions to the lab content of the class in conjunction with the instructor, Brad Hutchings.
-      - New lab content focused on development for Linux embedded systems
-      - "New labs give students a full-stack experience: creating a new digital circuit IP, integrating it into a Linux system, developing a Linux kernel driver, and finally integrating it into application code."
+      - New lab content focuses on development of user space and kernel code for Linux embedded systems.
+      - "New labs give students a full-stack experience: creating a new digital circuit IP through both Verilog and high-level synthesis (HLS), integrating it into a Linux system, developing a Linux kernel driver, and finally integrating it into application code."
 
-  - class: "ECEN 625: High-Level Digital Design Automation (BYU)"
-    items:
+  - name: "ECEN 625: High-Level Digital Design Automation (BYU)"
+    url: https://byu-cpe.github.io/ecen625/
+    bullets:
       - Major revisions of existing course to introduce new assignments, lecture material, current research topics, and hands-on experience with major commercial tools.
-      - Developed four new assignments which give students experience with commercial designs, high-level synthesis algorithms, large open-source tools, including the LLVM compiler infrastructure.
+      - Developed five new assignments which give students experience with commercial designs, high-level synthesis algorithms, large open-source tools, including the LLVM compiler infrastructure.
 
-  - class: "EECE 381: Computer Systems Design Studio (UBC)"
-    items:
+  - name: "BYU Computing Boot Camp"
+    url: https://byu-cpe.github.io/ComputingBootCamp/
+    bullets:
+      - In conjunction with other faculty members, we created a summer boot camp experience for undergraduate research students.  This boot camp consists of faculty lectures three times per week, with followup student activities.
+      - Various modules focus on software development skills (Git, Github, Makefiles, etc.), as well as commercial and academic FPGA tools.
+      - In 2021 we had over 30 undergraduate students participate.
+
+  - name: "ECEN 330: Intro to Embedded Systems Programming (BYU)"
+    url: http://ecen330-lin.groups.et.byu.net/wiki/doku.php
+    bullets:
+      - Migrated all labs and development infrastructure to use Linux-based, open-source, command-line tools.  
+      - Created automated testing, submission, and grading infrastructure to alleviate teaching assistant burden, and provide more time for one-on-one student interactions.
+
+  - name: "ECEN 220: Fundamentals of Digital Design (BYU)"
+    url: http://ecen220wiki.groups.et.byu.net/
+    bullets:
+      - Created several new labs (Codebreaker, Pong) designed to provide a more engaging student experience.
+
+  - name: "EECE 381: Computer Systems Design Studio (UBC)"
+    bullets:
       - Co-developed with Professor Steve Wilton at The University of British Columbia.
       - Project-based course designed to give students real-world technical project skills.  Students work in groups to identify a real-world market, identify constraints and requirements, plan project milestones, implement hardware and software, and present and report on their accomplishments.  
-
+      - "Technical topics: Rapid development of configurable hardware systems using commercial tools (Quartus/Qsys), embedded software development (FPGAs, Raspberry Pi, ARM), mobile applications (Android), and the integration of such systems."
 
 grants:
   - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services
@@ -670,51 +698,3 @@ skills:
   - name: Web
     value: HTML, CSS, JavaScript
 
-courses:
-  - date: Fall 2014
-    title: Advanced Computer Networks
-    description: >
-      Read papers on networking research such as software defined networking (SDN), LTE cellular networks, and future Internet architectures. Had hands on experience with SDN and cellular networks (through PhantomNet). Researched using concurrent channels in WLANs to allow for channel diversity of clients.
-
-  - date: Spring 2013
-    title: Wireless Networks
-    description: >
-      Learned about a wide variety of wireless networks. Researched and measured the association times of 802.11n WiFi networks and proposed solutions on how to speed up association times.
-
-  - date: Spring 2013
-    title: Compiler Principles and Techniques
-    description: >
-      Implemented all stages of language compilation, including tokenizing, parsing, transforming to high-level intermediate representation, transforming to continuation-passing style, and finally transforming to C. Built a Python compiler using Racket programming language.
-
-  - date: Fall 2012
-    title: Network Security
-    description: >
-      Researched and implemented "redirect attack" which stops redirects from insecure websites to secure websites from occurring. Used `netfilter` and modified IP tables to stop and modify web traffic on the fly.
-
-  - date: Fall 2012
-    title: Database Systems
-    description: >
-      Implemented parts of database management system such as B+ tree, buffer manager, and heap file. Also implemented common database operations including joining, using external sorting.
-
-  - date: Winter 2012
-    title: Introduction to Machine Learning
-    description: >
-      Built perception, backpropagation, and decision tree machine learning algorithms and used them to recognize patterns in real data. Using car crash data from NHTSA Fatality Analysis Reporting Systems (FARS), created machine learning algorithm to predict factors leading to car crashes.
-
-  - date: Fall 2011
-    title: Software Design and Testing
-    hidden: True
-    description: >
-      Worked with large group to build Java based home inventory tracking application. Implemented and utilized modern design patterns and testing methodologies.
-
-  - date: Fall 2011
-    title: Embedded Systems
-    hidden: True
-    description: >
-      Worked with Xilinx Vertex-II FPGA to build fully functional Space Invaders game using C and VHDL.
-
-  - date: Fall 2010
-    title: Real-Time Operating Systems
-    hidden: True
-    description: >
-      Built components of real time operating system for Intel 8086 architecture using C and assembly.
