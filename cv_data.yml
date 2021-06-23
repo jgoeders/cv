@@ -1,0 +1,533 @@
+name: Jeffrey Goeders
+title: Assistant Professor
+company: Brigham Young University
+email: jgoeders@byu.edu
+# web_site: philip.lundrigan.org
+github: github.com/jgoeders
+phone_number: 801-422-3499
+
+address:
+  name: Department of Electrical and Computer Engineering
+  first_line: 450J Engineering Building
+  second_line: Provo, UT 84602
+
+research_interests: >
+  My main research focuses are the Internet of Things, remote sensor deployments, and wireless network management. I am interested in building real systems that enhance and extend wireless networks. I am passionate about measuring and understanding air quality to help improve health.
+
+# As part of an NIH grant, I designed, built, and deployed an IoT architecture for in-home environmental sensors for epidemiological studies.
+
+education:
+  - end: 2016
+    degree: Ph.D., Computer Engineering
+    university: The University of British Columbia
+    description:
+      # - item: 4.0 / 4.0 GPA
+      - item: "Advisor: Steve Wilton"
+      - item: "Dissertation Title: Techniques for Enabling In-System Observation-based Debug of
+	High-Level Synthesis Circuits on FPGAs"
+
+  - end: 2012
+    degree: M.A.Sc., Computer Engineering
+    university: The University of British Columbia
+    description:
+      # - item: 3.89 / 4.0 GPA
+      - item: "Advisor: Steve Wilton"
+      - item: "Thesis Title: Power Estimation for Diverse FPGA Architectures"
+
+  - end: 2012
+    degree: B.A.Sc. w/ Honors, Computer Engineering
+    university: University of Toronto
+    # description:
+    #   - item: hi
+
+professional:
+  - start: July 2016
+    end: Present
+    university: Brigham Young University
+    position: Assistant Professor
+    department: Department of Electrical and Computer Engineering
+
+# research_experience:
+#   - start: October 2018
+#     end: Present
+#     university: Brigham Young University
+#     lab: Assistant Professor
+#     projects:
+#       - title: Department of Electrical and Computer Engineering
+#         description: Director of the Network Enhanced Technologies (NET) Lab.
+
+#   - start: October 2019
+#     end: Present
+#     university: University of Utah
+#     lab:
+#     projects:
+#       - title: Member of the Center of Excellence for Exposure Health Infromatics (CEEHI)
+#         description: CEEHI is a multi-disciplinary center focused on the next generation of exposure health research through use and development of novel informatics methods and solutions.
+
+#   - start: January 2013
+#     end: October 2018
+#     university: University of Utah
+#     lab: Advanced Networks Systems Research Lab
+#     projects:
+#       - title: PRISMS
+#         link: http://nursing.utah.edu/prisms/
+#         description: |
+#           Designed and built a framework for easy deployment of IoT in-home
+#           sensor network for epidemiologists. The framework uses Raspberry
+#           Pis and open source software to interoperate with many different
+#           types of IoT sensors. It allows for easy experimentation and data
+#           collection. The system has been deployed in multiple homes in
+#           Utah as part of a pediatric asthma research study.
+
+#       - title: PRISMS Management Tools
+#         link: https://github.com/VDL-PRISM
+#         description: |
+#           As part of the PRISMS project, I wrote applications to manage
+#           live deployments. These tools include a sensor status dashboard,
+#           an easy to use tool to export data from the database, peak detect
+#           algorithm for anomaly detection, a participant text notifications
+#           system to alert and receive feedback from participants, and an API
+#           for external tools to query data.
+
+#       - title: STRAP
+#         link: https://github.com/philipbl/unassociated_transfer
+#         description: |
+#           Built novel approach to securely share wireless network name and
+#           password with unassociated wireless sensors by encoding data into
+#           Ethernet source and destination addresses. This greatly speeds up
+#           the time it takes to connect IoT devices to a home's wireless
+#           network.
+
+#       - title: mobiLivUp
+#         description: |
+#           Designed and built a system for live streaming video by
+#           cooperatively using multiple cellular devices through WiFi Direct on
+#           Android devices. Created prototype Android application and tested in
+#           real world environment, showing improvements to traditional live
+#           video streaming. Paper published at ITC 28.
+
+#   - start: April 2011
+#     end: April 2012
+#     university: Brigham Young University
+#     lab: Internet Research Lab
+#     projects:
+#       - title: WiFu
+#         link: https://internet.byu.edu/research/wifu
+#         description: >
+#           Contributed to framework, ``WiFu'', for experimenting on wireless
+#           transport protocols. Designed new TCP variant protocol specific for
+#           wireless mesh networks. Used wireless mesh network to run experiments
+#           and benchmark performance of different protocols.
+
+#   - start: April 2010
+#     end: April 2011
+#     university: Brigham Young University
+#     lab: FPGA Lab
+#     projects:
+#       - title: HMFlow and RapidSmith
+#         link: http://rapidsmith.sourceforge.net
+#         description: >
+#           Helped develop HMFlow framework for rapid prototyping on FPGAs.
+#           Designed and developed fast loading and saving of serialized
+#           data structures. Created complex data structures to model FPGA
+#           designs.
+
+experience:
+  - start: May 2015
+    end: August 2015
+    title: Network Scientist Intern
+    company: Raytheon BBN Technologies
+    description: |
+      Worked on DARPA's Squad X project, designing an architecture for
+              flexible distribution of content and information. Using ns3,
+              built a framework to measure effectiveness of various content
+              distribution approaches.
+
+  - start: May 2014
+    end: August 2014
+    title: Network Scientist Intern
+    company: Raytheon BBN Technologies
+    description: |
+      Worked on DARPA's Content-Based Mobile Edge Networking (CBMEN) project
+              using Android phones. Improved, measured, and tested the
+              design of the basic ad hoc networking functionality.
+              Thoroughly studied the benefits of using asynchronous I/O
+              compared to synchronous I/O for all network communication.
+              Developed new method for managing multiple TCP connections
+              with neighboring nodes. Built Android application and deployed
+              on 15 devices in the field to measure the improvements.
+              Collaborated closely with three other researchers to improve
+              various components of the system.
+
+  # Extra space
+  # - title:
+  # - title:
+  # - title:
+
+  - start: July 2013
+    end: January 2014
+    title: Wireless Researcher
+    company: Xandem Technology
+    description: >
+      Built system for fall detection and localization using wireless sensor
+              network for elderly care. Lead development of small team to
+              implemented real-time room-level localization algorithm using
+              machine learning. Worked with raw wireless data to develop
+              features for machine learning algorithm. Conducted experiments
+              to evaluate and measure the accuracy of localization
+              algorithm.
+  # Demonstrated working prototype to potential customers.
+
+  - start: April 2012
+    end: August 2012
+    title: Software Engineering Intern
+    company: Ancestry.com
+    description: >
+      Researched an alternative way to store and search large amounts of
+              data using Apache Solr. Built testing framework to compare
+              storage alternatives. Built a new wiki system for the
+              development team to use.
+
+publications:
+  # - name: Under Review
+  #   publications:
+
+  - name: Book Chapters
+    publications:
+      - authors: Jeffrey Goeders, Graham M. Holland, Lesley Shannon, and Steven J.E. Wilton
+        title: Systems-on-Chip on FPGAs
+        series: FPGAs for Software Programmers
+        publisher: Springer
+        date: 2016
+
+      - authors: Andrew Canis, Jongsok Choi, Blair Fort, Bain Syrowik, Ruo Long Lian, Yu Ting Chen, Hsuan Hsiao, Jeffrey Goeders, Stephen Brown, and Jason Anderson
+        title: LegUp high-level synthesis
+        series: FPGAs for Software Programmers
+        publisher: Springer
+        date: 2016
+
+  - name: Peer-Reviewed Journal Articles
+    publications:
+      - authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
+        title: Inducing Non-Uniform FPGA Aging Using Configuration-Based Short Circuits
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: 2021
+        status: Under Review, submitted June 2021
+
+      - authors: Eli Cahill, Jeffrey Goeders, and Brad Hutchings
+        title: Approaches for FPGA Design Assurance
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: 2021
+        status: Under Review, submitted April 2021
+
+      - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
+        title: Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
+        series: IEEE Transactions on Nuclear Science (TNS)
+        pages: vol. 68, no. 5, pp. 1014-1022
+        date: Apr 2021
+
+      - authors: Al-Shahna Jamal, Eli Cahill, Jeffrey Goeders, and Steven JE Wilton
+        title: Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        pages: vol. 13, no. 1, pp. 1-26
+        date: Feb 2020
+    
+      - authors: Benjamin James, Heather Quinn, Michael Wirthlin, and Jeffrey Goeders
+        title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
+        series: IEEE Transactions on Nuclear Science (TNS)
+        pages: vol. 67, no. 1, pp. 321-327
+        date: Jan 2020
+
+      - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Microcontroller Compiler-Assisted Software Fault Tolerance
+        series: IEEE Transactions on Nuclear Science (TNS)
+        pages: vol. 66, no. 1, pp. 223-232
+        date: Jan 2019
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Signal-Tracing Techniques for In-System FPGA Debugging of High-Level Synthesis Circuits
+        series: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+        pages: vol. 36, no. 1, pp. 83-96
+        date: Jan 2017
+
+      - authors: Jeffrey Goeders and Steven J.E. Wilton
+        title: Power Aware Architecture Exploration for Field Programmable Gate Arrays
+        series: Journal of Low Power Electronics (JOLPE)
+        pages: vol. 10, no. 3, pp. 297-312
+        date: Sep. 2014
+
+      - authors: Jason Luu, Jeffrey Goeders, Michael Wainberg, Andrew Somerville, Thien Yu, Konstantin Nasartschuk, Miad Nasr, Sen Wang, Tim Liu, Nooruddin Ahmed, Kenneth B Kent, Jason Anderson, Jonathan Rose, and Vaughn Betz
+        title: "VTR 7.0: Next Generation Architecture and CAD System for FPGAs"
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        pages: vol 7, no. 2,  pp. 6:1–30
+        date: Jul 2014
+
+
+  - name: Conferences
+    publications:
+      - authors: 
+      - authors: L. Alcantara, J. Miera, B. Ariun-Erdene, C. Teng, \textbf{P. Lundrigan}
+        title: The Hitchhiker's Guide to Successful Remote Sensing Deployments in Mongolia
+        venue: Intermountain Engineering, Technology, and Computing Conference (i-ETC), 2020
+
+      - authors: \textbf{P. Lundrigan}, N. Patwari, S. K. Kasera
+        title: On-off Noise Power Communication
+        venue: The 25th Annual International Conference on Mobile Computing and Networking (MobiCom), 2019
+        link: "http://netlab.byu.edu/assets/ONPC.pdf"
+
+      - authors: S. Maheshwari, \textbf{P. Lundrigan}, S. K. Kasera
+        title: Scheduling Virtual WiFi Interfaces for High Bandwidth Live Video Upstreaming Using Multipath TCP
+        venue: 20th International Conference on Distributed Computing and Networking (ICDCN 2019) \textbf{(Best Paper Award)}
+
+      - authors: >
+          \textbf{P. Lundrigan}, K. Min, N. Patwari, S. K. Kasera, K. Kelly, J.
+          Moore, M. Meyer, S. C. Collingwood, F. Nkoy, B. Stone, and K. Sward
+        title: An In-Home IoT Architecture for Epidemiological Deployments
+        venue: IEEE Workshop on Practical Issues in Building Sensor Network Applications (SenseApp), 2018 \textbf{(Best Paper Runner-up)}
+        link: "https://sites.google.com/view/ieeesenseapp/welcome"
+
+      - authors: K. Min, \textbf{P. Lundrigan}, N. Patwari
+        title: "Smart Home Air Filtering System: A Randomized Controlled Trial for Performance Evaluation"
+        venue: "IEEE/ACM 3rd International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2018"
+        link: http://span.ece.utah.edu/pub/min2018smart.pdf
+
+      - authors: \textbf{P. Lundrigan}, M. Khaledi, M. Kano, N. Subramanyam, and S. Kasera
+        title: Mobile Live Video Upstreaming
+        link: http://ansr.cs.utah.edu/assets/mobilivup.pdf
+        venue: 28th International Teletraffic Congress (ITC 28), 2016
+
+      - authors: R. Buck, R. Lee, \textbf{P. Lundrigan}, and D. Zappala
+        title: "WiFu: A composable toolkit for experimental wireless transport protocols"
+        link: https://zappala.byu.edu/pubs/wifu-mass-2012.pdf
+        venue: 9th IEEE International Conference on Mobile Ad-Hoc and Sensor Systems, 2012
+
+      - authors: C. Lavin, M. Padilla, J. Lamprecht, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
+        title: "HMFlow: Accelerating FPGA Compilation with Hard Macros for Rapid Prototyping"
+        link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5771262
+        venue: IEEE 19th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2011
+
+      - authors: C. Lavin, M. Padilla, J. Lamprecht, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
+        title: "RapidSmith: Do-It-Yourself CAD Tools for Xilinx FPGAs"
+        link: https://ieeexplore.ieee.org/document/6044842/
+        venue: International Conference on Field Programmable Logic and Applications (FPL), 2011
+
+      - authors: C. Lavin, M. Padilla, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
+        title: "Rapid prototyping tools for FPGA designs: RapidSmith"
+        link: http://www.chrec.org/chrec-pubs/FPT10_B1.pdf
+        venue: International Conference on Field-Programmable Technology (FPT), 2010
+
+  - name: Invited Papers
+    publications:
+      - authors: \textbf{P. Lundrigan}, N. Patwari, S. K. Kasera
+        title: "STRAP: Secure TRansfer of Association Protocol"
+        link: http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf
+        venue: The 27th International Conference on Computer Communications and Networks (ICCCN), 2018
+
+  - name: Journals
+    publications:
+      - authors: S. Hegde, K. Min, J. Moore, \textbf{P. Lundrigan}, N. Patwari, S. C. Collingwood, and K. E. Kelly
+        title: Household Indoor Particulate Matter Measurement Using a Network of Low Cost Sensors
+        venue: Aerosol and Air Quality Research, 2019
+        link: http://www.aaqr.org/article/detail/AAQR-19-01-LCS-0046
+
+      - authors: J. Moore, P. Goffin, \textbf{P. Lundrigan}, N. Patwari, K. Sward, J. Weise, M. Meyer
+        title: Managing In-home Environments Through Sensing, Annotating, and Visualizing Air Quality Data
+        venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2018
+        link: http://doi.acm.org/10.1145/3264938
+
+      - authors: Tim Strayer, Samuel Nelson, Amando Caro, Joud Khoury, Bryan Tedesco, Olivia DeRosa, Carsten Clark, Kolia Sadeghi, Michael Matthews, Jake Kurzer, \textbf{Philip Lundrigan}, Vikas Kawadia, Dorene Ryder, Keith Gremban, Wayne Phoel
+        title: Content Sharing with Mobility in an Infrustructure-less Environment
+        venue: Computer Networks, 2018
+        link: https://authors.elsevier.com/a/1XTcC4xsUrrsXW
+
+      - authors: B. Mager, \textbf{P. Lundrigan}, and N. Patwari
+        title: "Fingerprint-Based Device-Free Localization: Performance in Changing Environments"
+        link: http://span.ece.utah.edu/uploads/main.pdf
+        venue: Journal on Selected Areas in Communications, 2015
+
+  - name: Demos
+    publications:
+      - authors: Kyeong T. Min, \textbf{Philip Lundrigan}, and Neal Patwari
+        title: IASA - Indoor Air Quality Sensing and Automation
+        link: http://span.ece.utah.edu/uploads/IPSN_Demo_Paper_2017_Final%20(1).pdf
+        venue: 16th ACM/IEEE International Conference on Information Processing
+          in Sensor Networks (IPSN), 2017
+
+service:
+  - year: 2020
+    activities: "TPCs: IPSN, WoWMoM (publicity co-chair); Reviewer: Transactions on Mobile Computing"
+
+talks:
+  - title: STRAP and Beyond
+    group:
+      - name: BYU Networking Club
+        date: December 2019
+        location: Provo, UT
+
+  - title: Networking Research for Linux
+    group:
+      - name: BYU Linux Club
+        date: September 2019
+        location: Provo, UT
+
+  - title: On-off Noise Power Communication
+    group:
+      - name: MobiCom 2019
+        date: October 2019
+        location: Los Cabos, Mexico
+
+  - title: "EpiFi: An In-Home IoT Architecture for Epidemiological Deployments"
+    group:
+      - name: BYU CCL Lab
+        date: April 2018
+        location: Provo, UT
+      - name: BYU IT Student Seminar
+        date: March 2018
+        location: Provo, UT
+
+  - title: "STRAP: Secure TRansfer of Association Protocol"
+    group:
+      - name: The 27th International Conference on Computer Communications and Networks (ICCCN)
+        date: July, 2018
+        location: China
+
+  - title: "An Infrastructure for Generating Exposomes: Initial Lessons from the Utah PRISMS Platform"
+    group:
+      - name: 27th Annual Meeting of the International Society of Exposure Science (ISES)
+        date: October 2017
+        location: Research Park Triangle, NC
+
+  - title: In-Home Real-Time Sensor Networks
+    group:
+      - name: 33rd Annual Utah Conference on Safety \& Industrial Hygiene
+        date: October 2016
+        location: Salt Lake City, UT
+
+  # Extra space
+  - title:
+
+  - title: Mobile Live Video Upstreaming
+    group:
+      - name: ITC 28
+        date: September 2016
+        location: Wurzburg, Gemany
+      - name: BBN Lunch Talk
+        date: July 2015
+        location: Cambridge, MA
+
+grants:
+  - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services
+    agency: NSF
+    start: Sep. 2020
+    end: August 2023
+    amount: 258,000
+    pi: Karl Warnick
+    co_pis: Philip Lundrigan
+
+  - title: Mongolian Ger Air Quality Measurement and Analysis
+    agency: Deseret International Charities
+    start: July 2019
+    end: April 2020
+    amount: 15,250
+    pi: Philip Lundrigan
+
+  - title: Self-Sustainable Air Quality Sensor
+    agency: Ira A. Fulton College of Engineering
+    start: March 2019
+    end: March 2020
+    amount: 12,500
+    pi: Philip Lundrigan
+
+  - title: PRISMS Informatics Platform - Federated Integration Architecture
+    agency: NIH
+    start: September 2018
+    end: May 2020
+    amount: 21,208
+    pi: Philip Lundrigan
+
+projects:
+  - start: 2016
+    title: Duplicate Image Finder
+    link: https://github.com/philipbl/duplicate-images
+    description: >
+      Using perspective hashing, I built a tool that detects duplicate images in photo libraries. It has over 100 stars on GitHub and I have worked with contributors to make the project better.
+
+  - start: 2015
+    title: Home Assistant
+    link: https://www.home-assistant.io
+    description: >
+      Core contributor to open source home automation hub software. Allows for different third party home automation systems to be integrated easily and controlled from a centralized location.
+
+  # - start: 2014
+  #   title: Personal Blog
+  #   description: >
+  #     Short articles with small coding projects. One such project has been written about in several blogs, including Cult of Mac.
+  # - start: 2013
+  #   title: Day One Adobe Lightroom Plugin
+  #   description: >
+  #     Built a plugin that allows users to export photos from Adobe Lightroom to the Mac journaling application, Day One. Open sourced plugin on GitHub, with some popularity. Added features and fixed bugs based on user feedback. Plugin receives about 30 views every day on GitHub.
+  # - start: 2010 to 2011
+  #   title: Y-Clops
+  #   description: >
+  #     Worked with a large group to build an autonomous robot for Intelligent Ground Vehicle Competition. Worked specifically on the robot’s camera using OpenCV to recognize obstacles. Used image-processing techniques such as edge detection and thresholding to detect obstacles.
+
+skills:
+  - name: Programming Languages
+    value: Python, Java, C++, C, C#, Racket, Lua, Swift
+  - name: Mobile App Development
+    value: Android, iOS
+  - name: Version Control Software
+    value: git
+  - name: IDEs
+    value: Android Studio, Visual Studio, Eclipse, NetBeans, Xcode
+  - name: Web
+    value: HTML, CSS, JavaScript
+
+courses:
+  - date: Fall 2014
+    title: Advanced Computer Networks
+    description: >
+      Read papers on networking research such as software defined networking (SDN), LTE cellular networks, and future Internet architectures. Had hands on experience with SDN and cellular networks (through PhantomNet). Researched using concurrent channels in WLANs to allow for channel diversity of clients.
+
+  - date: Spring 2013
+    title: Wireless Networks
+    description: >
+      Learned about a wide variety of wireless networks. Researched and measured the association times of 802.11n WiFi networks and proposed solutions on how to speed up association times.
+
+  - date: Spring 2013
+    title: Compiler Principles and Techniques
+    description: >
+      Implemented all stages of language compilation, including tokenizing, parsing, transforming to high-level intermediate representation, transforming to continuation-passing style, and finally transforming to C. Built a Python compiler using Racket programming language.
+
+  - date: Fall 2012
+    title: Network Security
+    description: >
+      Researched and implemented "redirect attack" which stops redirects from insecure websites to secure websites from occurring. Used `netfilter` and modified IP tables to stop and modify web traffic on the fly.
+
+  - date: Fall 2012
+    title: Database Systems
+    description: >
+      Implemented parts of database management system such as B+ tree, buffer manager, and heap file. Also implemented common database operations including joining, using external sorting.
+
+  - date: Winter 2012
+    title: Introduction to Machine Learning
+    description: >
+      Built perception, backpropagation, and decision tree machine learning algorithms and used them to recognize patterns in real data. Using car crash data from NHTSA Fatality Analysis Reporting Systems (FARS), created machine learning algorithm to predict factors leading to car crashes.
+
+  - date: Fall 2011
+    title: Software Design and Testing
+    hidden: True
+    description: >
+      Worked with large group to build Java based home inventory tracking application. Implemented and utilized modern design patterns and testing methodologies.
+
+  - date: Fall 2011
+    title: Embedded Systems
+    hidden: True
+    description: >
+      Worked with Xilinx Vertex-II FPGA to build fully functional Space Invaders game using C and VHDL.
+
+  - date: Fall 2010
+    title: Real-Time Operating Systems
+    hidden: True
+    description: >
+      Built components of real time operating system for Intel 8086 architecture using C and assembly.

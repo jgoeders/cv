@@ -1,23 +1,197 @@
-\documentclass{article}
-\begin{document}
-\section{Example}
-An example document using \LaTeX, Python, and Jinja.
+\documentclass[10pt, oneside]{article}
+\usepackage{soul} % Used for the title name (eg. the Elliot John Reed cv title)
+\usepackage{titlesec}
+\usepackage{marvosym} % add the symbols for email and phone contact data
+\usepackage{fancyhdr} % Required for the footer
+\usepackage{tabularx} % Nicer table style than the default
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
 
-% This is a regular LaTeX comment
-\section{\VAR{section1}}
-\#{This is a long-form Jinja comment}
-\begin{itemize}
-\BLOCK{ for x in range(0, 3) }
-  \item Counting: \VAR{x}
-\BLOCK{ endfor }
-\end{itemize}
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
 
-\section{\VAR{section2}}
-%# This is a short-form Jinja comment
-\begin{itemize}
-%% for x in range(0, 3)
-  \item Counting: \VAR{x}
-%% endfor
-\end{itemize}
+\definecolor{headings}{HTML}{2b3856} % Dark red color for headings
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
 
+\usepackage[none]{hyphenat} % Prevents hyphenation in text
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\titlespacing*{\section}
+{0pt}{25pt}{5pt}
+
+
+\usepackage[margin=20mm,bottom=20mm]{geometry}
+
+\linespread{1.1} % Line spacing
+
+% Sections formatting
+\titleformat{\section}{
+  \color{headings}
+  \scshape\Large\raggedright
+}{}{0em}{}[\color{black}\titlerule]
+
+\pagestyle{fancy}
+
+% Prevents overfull hbox and vbox
+\hbadness=10000
+\hfuzz=50pt
+\vbadness=10000
+\vfuzz=50pt
+
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}p{3cm}}
+
+
+% add the symbols for email and phone contact data
+\fancyhead[r]{Philip B. Lundrigan}
+\fancyhead[l]{}
+\fancyfoot[c]{\thepage}
+
+\renewcommand\headrulewidth{0pt} % Size of the header rule
+\renewcommand\footrulewidth{0pt} % Size of the footer rule
+
+\usepackage[pdfborder={0 0 0},bookmarks=true,pdftitle={\VAR{name}'s CV},pdfauthor={\VAR{name}},pdfsubject={Curriculum Vitae},pdfcreator={www.cs.utah.edu/~philipbl},pdfproducer={www.cs.utah.edu/~philipbl}]{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=headings,
+}
+
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\thispagestyle{empty}
+
+
+%%%%%%  NAME AND CONTACT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+{\color{headings}\uppercase{\Huge{\textbf{\VAR{name}}}}}
+
+\begin{center}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    \newcolumntype{L}{>{\raggedright\arraybackslash}X}
+    \begin{tabularx}{1\linewidth}{L R}
+        \\
+        \VAR{title}               & \href{mailto:\VAR{email}}{\VAR{email}}                      \\
+        % \VAR{address.name}        & \href{http://\VAR{web_site}}{\VAR{web_site | escape_latex}} \\
+        \VAR{address.name}        & \href{http://\VAR{github}}{\VAR{github}}                     \\
+        \VAR{company}             & \VAR{phone_number}                                          \\
+        \VAR{address.first_line}  & \\
+        \VAR{address.second_line} &
+    \end{tabularx}
+
+
+    \BLOCK{ macro table(items, width=3) -}
+    \BLOCK{ for item in items if not item.hidden }
+    \begin{longtable}[1\linewidth]{Zp{13cm}}
+        \VAR{ caller(item) }
+    \end{longtable}
+    \BLOCK{ endfor }
+    \BLOCK{- endmacro }
+
+    \BLOCK{ macro list(items) -}
+    \begin{enumerate}
+      \VAR{ caller(item) }
+    \end{enumerate}
+    \BLOCK{- endmacro }
+
+
+    %%%%%%  RESEARCH INTERESTS  %%%%%%%%%%%%%%%%%%%%%%%%
+    % \section{Research Interests}
+    % \begin{flushleft}
+    %     \VAR{research_interests}
+    % \end{flushleft}
+
+    % \vspace{1mm}
+
+    %%%%%%  EDUCATION  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \section{Education}
+    \BLOCK{ call(item) table(education) }
+    \textbf{\VAR{item.end}} & \textbf{\VAR{item.university}}, \emph{\VAR{item.degree}} \\
+    \BLOCK{ for bullet in item.description }
+    & \VAR{bullet.item} \\
+    \BLOCK{ endfor }
+    \BLOCK{ endcall }
+
+    %%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \section{Professional Experience}
+    \BLOCK{ call(item) table(professional) }
+    \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.university}}, \emph{\VAR{item.position}} \\
+    \textbf{\VAR{item.end}} & \VAR{item.department} \\
+    \\
+    \BLOCK{ endcall }
+    
+  \end{center}
+  
+
+    %%%%%%  Publications  %%%%%%%%%%%%%%%
+    \section*{Publications}
+    \BLOCK{ for type in publications }
+
+    \subsection*{\VAR{type.name}}
+    
+    \begin{enumerate}[resume]
+      \BLOCK{ for pub in type.publications }
+      
+      \item \BLOCK{if pub.status}(\textit{\VAR{pub.status}}) \BLOCK{endif}\VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', in \VAR{pub.series}, \BLOCK{if pub.publisher}\VAR{pub.publisher}, \BLOCK{endif}\BLOCK{if pub.pages}\VAR{pub.pages}, \BLOCK{endif}\VAR{pub.date}.
+      \BLOCK{ endfor }
+    \end{enumerate}
+    \BLOCK{ endfor }
+
+    \begin{center}
+    %%%%%%  Service  %%%%%%%%%%%%%%%
+    \section{Service}
+    \BLOCK{ call(item) table(service) }
+    \textbf{\VAR{ item.year }} & \VAR{ item.activities } \\
+    \BLOCK{ endcall }
+
+
+    %%%%%%  Talks  %%%%%%%%%%%%%%%
+    \section{Talks}
+    \begin{longtable}[1\linewidth]{Zp{13cm}}
+        \BLOCK{ for item in talks }
+         & \textbf{\VAR{item.title | default("", True)}}                           \\
+        \BLOCK{ for group in item.group }
+         & \textit{\VAR{ group.name }}, \VAR{ group.date }, \VAR{ group.location } \\
+        \BLOCK{ endfor }
+         &                                                                         \\
+        \BLOCK{ endfor }
+    \end{longtable}
+
+    %%%%%%  Grants  %%%%%%%%%%%%%%%
+    \section{Grants}
+    \begin{longtable}[1\linewidth]{Zp{13cm}}
+        \BLOCK{ for item in grants }
+        \textbf{\VAR{item.start} to} & \textbf{\VAR{item.title | default("", True)}}                                       \\
+        \textbf{\VAR{item.end}}       & \VAR{ item.agency }, \$\VAR{ item.amount }                                        \\
+                                     & \textit{Principal Investigator:} \VAR{ item.pi }\BLOCK{ if item.co_pis }              \\
+                                     & \textit{Co-Investigators:} \VAR{ item.co_pis } \BLOCK{ endif }                        \\
+        \\
+        \BLOCK{ endfor }
+    \end{longtable}
+
+    %%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \section{Professional Experience}
+
+    \BLOCK{ call(item) table(experience) }
+    \BLOCK{ if item.title }
+    \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.title}}, \emph{\VAR{item.company}} \\
+    \textbf{\VAR{item.end}}           & \VAR{item.description | md2latex} \\
+    \BLOCK{ endif }
+    \BLOCK{ endcall }
+
+
+    %%%%%%  Projects  %%%%%%%%%%%%%%%
+    \section{Open Source Projects}
+    \BLOCK{ call(item) table(projects) }
+    \textbf{\VAR{item.start}}         & \href{\VAR{item.link}}{\textbf{\VAR{item.title}}} \\
+    & \VAR{item.description | md2latex} \\
+    \BLOCK{ endcall }
+
+
+\end{center}
 \end{document}

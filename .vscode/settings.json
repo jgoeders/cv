@@ -1,0 +1,14 @@
+{
+"emeraldwalk.runonsave": {
+	"commands": [
+		{
+			"match": ".yml",
+			"cmd": "make"
+		},
+        {
+			"match": ".tex",
+			"cmd": "make"
+		}
+        
+	]
+}}
