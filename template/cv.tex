@@ -14,7 +14,7 @@
 \definecolor{headings}{HTML}{2b3856} % Dark red color for headings
 \definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
 
-\usepackage[none]{hyphenat} % Prevents hyphenation in text
+% \usepackage[none]{hyphenat} % Prevents hyphenation in text
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -137,33 +137,38 @@
     Note:  Conferences which were refereed by abstract, or had acceptance rates close to 100\% are not listed in this section.  Most relevant conferences in this field are the "4-Fs": Int'l Symposium on Field-Programmable Gate Arrays (FPGA), Int'l Conf. on Field-Programmable Technology (FPT), Int'l Conf. on Field-Programmable Logic and Applications (FPL), Int'l Conf. on Field-Config. Custom Computing Machines (FCCM).  Acceptance rates for these conferences are regularly below 30\%. 
     \BLOCK{endif}
     
-    \begin{enumerate}[resume]
+    \begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
       \BLOCK{ for pub in type.publications }
       
-      \item \BLOCK{if pub.status}(\textit{\VAR{pub.status}}) \BLOCK{endif}\VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', in \VAR{pub.series}, \BLOCK{if pub.publisher}\VAR{pub.publisher}, \BLOCK{endif}\BLOCK{if pub.pages}\VAR{pub.pages}, \BLOCK{endif}\VAR{pub.date}.
+      \item \BLOCK{if pub.status}(\textit{\VAR{pub.status}}) \BLOCK{endif}\VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', in \VAR{pub.series}, \BLOCK{if pub.publisher}\VAR{pub.publisher}, \BLOCK{endif}\BLOCK{if pub.pages}\VAR{pub.pages}, \BLOCK{endif}\VAR{pub.date}.\BLOCK{if pub.note}\textbf{\VAR{pub.note}}.\BLOCK{endif}
+      \BLOCK{ endfor }
+    \end{enumerate}
+    \BLOCK{ endfor }
+
+
+
+
+
+    %%%%%%  Talks  %%%%%%%%%%%%%%%
+    \section*{Talks}
+    \BLOCK{ for type in talks }
+
+    \subsection*{\VAR{type.name} }
+    
+    \begin{enumerate}\BLOCK{if not loop.first}[resume]\BLOCK{endif}
+      \BLOCK{ for pub in type.talks }
+      \item \VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', at \VAR{pub.location}, \VAR{pub.date}.
       \BLOCK{ endfor }
     \end{enumerate}
     \BLOCK{ endfor }
 
     \begin{center}
+
     %%%%%%  Service  %%%%%%%%%%%%%%%
     \section{Service}
     \BLOCK{ call(item) table(service) }
     \textbf{\VAR{ item.year }} & \VAR{ item.activities } \\
     \BLOCK{ endcall }
-
-
-    %%%%%%  Talks  %%%%%%%%%%%%%%%
-    \section{Talks}
-    \begin{longtable}[1\linewidth]{Zp{13cm}}
-        \BLOCK{ for item in talks }
-         & \textbf{\VAR{item.title | default("", True)}}                           \\
-        \BLOCK{ for group in item.group }
-         & \textit{\VAR{ group.name }}, \VAR{ group.date }, \VAR{ group.location } \\
-        \BLOCK{ endfor }
-         &                                                                         \\
-        \BLOCK{ endfor }
-    \end{longtable}
 
     %%%%%%  Grants  %%%%%%%%%%%%%%%
     \section{Grants}

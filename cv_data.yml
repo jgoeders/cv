@@ -306,171 +306,227 @@ publications:
         series: International Conference on Field Programmable Logic and Applications (FPL)
         date: Aug 2018
 
-16.	Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings, “Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), May 2018.
-17.	Al-Shahna Jamal, Jeffrey Goeders, and Steven J.E. Wilton, “Architecture Exploration for HLS-Oriented FPGA Debug Overlays,” in International Symposium on Field-Programmable Gate Arrays (FPGA), Feb 2018.
-18.	Pavan Kumar Bussa, Jeffrey Goeders, and Steven JE Wilton, “Accelerating in-system FPGA debug of high-level synthesis circuits using incremental compilation techniques,” in International Conference on Field Programmable Logic and Applications (FPL), Sep 2017.
-19.	Jeffrey Goeders, “Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), May 2017.
-20.	Jeffrey Goeders, and Steven J.E. Wilton, “Quantifying observability for in-system debug of high-level synthesis circuits,” in International Conference on Field Programmable Logic and Applications (FPL), pp. 1–11, Aug. 2016.
-21.	Jeffrey Goeders, and Steven J.E. Wilton, “Using Round-Robin Tracepoints to Debug Multithreaded HLS Circuits on FPGAs,” in International Conference on Field Programmable Technology (FPT), Dec. 2015.
-22.	Jeffrey Goeders, and Steven J.E. Wilton, “Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs,” in International Symposium on Field-Programmable Custom Computing Machines (FCCM), pp. 127–134, May 2015. BEST PAPER AWARD.
-23.	Jeffrey Goeders, and Steven J.E. Wilton, “Effective FPGA Debug for High-Level Synthesis Generated Circuits,” in International Conference on Field Programmable Logic and Applications (FPL), pp. 1–8, Sep. 2014.
-24.	Eddie Hung, Jeffrey Goeders, and Steven J.E. Wilton, “Faster FPGA Debug: Efficiently Coupling Trace Instruments with User Circuitry,” in International Symposium on Applied Reconfigurable Computing (ARC), pp. 73–84, Apr. 2014.
-25.	Jeffrey Goeders, and Steven J.E. Wilton, “VersaPower: Power Estimation for Diverse FPGA Architectures,” in International Conference on Field Programmable Technology (FPT), pp. 229–234, Dec. 2012.
-26.	Jonathan Rose, Jason Luu, Chi Wai Yu, Opal Densmore, Jeffrey Goeders, Andrew Somerville, Kenneth B. Kent, Peter Jamieson, and Jason Anderson, “The VTR Project: Architecture and CAD for FPGAs from Verilog to Routing,” in International Symposium on Field Programmable Gate Arrays (FPGA), pp. 77 – 86, Feb. 2012.
-27.	Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton, “Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition,” in International Conference on Reconfigurable Computing and FPGAs (ReConFig), pp. 41–48, Dec. 2011.
+      - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
+        title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+        series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2018
+      
+      - authors: Al-Shahna Jamal, Jeffrey Goeders, and Steven J.E. Wilton
+        title: Architecture Exploration for HLS-Oriented FPGA Debug Overlays
+        series: International Symposium on Field-Programmable Gate Arrays (FPGA)
+        date: Feb 2018
 
+      - authors: Pavan Kumar Bussa, Jeffrey Goeders, and Steven JE Wilton
+        title: Accelerating in-system FPGA debug of high-level synthesis circuits using incremental compilation techniques
+        series: International Conference on Field Programmable Logic and Applications (FPL)
+        date: Sep 2017
 
-  - name: Conferences
+      - authors: Jeffrey Goeders
+        title: Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
+        series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2017
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Quantifying observability for in-system debug of high-level synthesis circuits
+        series: International Conference on Field Programmable Logic and Applications (FPL)
+        pages: pp. 1–11
+        date: Aug 2016
+  
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Using Round-Robin Tracepoints to Debug Multithreaded HLS Circuits on FPGAs
+        series: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2015
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs
+        series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        pages: pp. 127–134
+        date: May 2015
+        note: Best Paper Award
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
+        series: International Conference on Field Programmable Logic and Applications (FPL)
+        pages: pp. 1–8
+        date: Sep 2014
+
+      - authors: Eddie Hung, Jeffrey Goeders, and Steven J.E. Wilton
+        title: "Faster FPGA Debug: Efficiently Coupling Trace Instruments with User Circuitry"
+        series: International Symposium on Applied Reconfigurable Computing (ARC)
+        pages: pp. 73–84
+        date: Apr 2014
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: "VersaPower: Power Estimation for Diverse FPGA Architectures" 
+        series: International Conference on Field Programmable Technology (FPT)
+        pages: pp. 229–234
+        date: Dec 2012
+
+      - authors: Jonathan Rose, Jason Luu, Chi Wai Yu, Opal Densmore, Jeffrey Goeders, Andrew Somerville, Kenneth B. Kent, Peter Jamieson, and Jason Anderson
+        title: "The VTR Project: Architecture and CAD for FPGAs from Verilog to Routing"
+        series: International Symposium on Field Programmable Gate Arrays (FPGA)
+        pages: pp. 77 – 86
+        date: Feb 2012
+
+      - authors: Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton
+        title: Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition
+        series: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+        pages: pp. 41–48
+        date: Dec 2011
+
+  - name: Peer-Reviewed International Workshop Publications
     publications:
-      - authors: 
-      - authors: L. Alcantara, J. Miera, B. Ariun-Erdene, C. Teng, \textbf{P. Lundrigan}
-        title: The Hitchhiker's Guide to Successful Remote Sensing Deployments in Mongolia
-        venue: Intermountain Engineering, Technology, and Computing Conference (i-ETC), 2020
+      - authors: Adam Hastings, Sean Jensen, Jeffrey Goeders, and Brad Hutchings
+        title: Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
+        series: International Verification and Security Workshop (IVSW)
+        date: Jul 2018
 
-      - authors: \textbf{P. Lundrigan}, N. Patwari, S. K. Kasera
-        title: On-off Noise Power Communication
-        venue: The 25th Annual International Conference on Mobile Computing and Networking (MobiCom), 2019
-        link: "http://netlab.byu.edu/assets/ONPC.pdf"
-
-      - authors: S. Maheshwari, \textbf{P. Lundrigan}, S. K. Kasera
-        title: Scheduling Virtual WiFi Interfaces for High Bandwidth Live Video Upstreaming Using Multipath TCP
-        venue: 20th International Conference on Distributed Computing and Networking (ICDCN 2019) \textbf{(Best Paper Award)}
-
-      - authors: >
-          \textbf{P. Lundrigan}, K. Min, N. Patwari, S. K. Kasera, K. Kelly, J.
-          Moore, M. Meyer, S. C. Collingwood, F. Nkoy, B. Stone, and K. Sward
-        title: An In-Home IoT Architecture for Epidemiological Deployments
-        venue: IEEE Workshop on Practical Issues in Building Sensor Network Applications (SenseApp), 2018 \textbf{(Best Paper Runner-up)}
-        link: "https://sites.google.com/view/ieeesenseapp/welcome"
-
-      - authors: K. Min, \textbf{P. Lundrigan}, N. Patwari
-        title: "Smart Home Air Filtering System: A Randomized Controlled Trial for Performance Evaluation"
-        venue: "IEEE/ACM 3rd International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2018"
-        link: http://span.ece.utah.edu/pub/min2018smart.pdf
-
-      - authors: \textbf{P. Lundrigan}, M. Khaledi, M. Kano, N. Subramanyam, and S. Kasera
-        title: Mobile Live Video Upstreaming
-        link: http://ansr.cs.utah.edu/assets/mobilivup.pdf
-        venue: 28th International Teletraffic Congress (ITC 28), 2016
-
-      - authors: R. Buck, R. Lee, \textbf{P. Lundrigan}, and D. Zappala
-        title: "WiFu: A composable toolkit for experimental wireless transport protocols"
-        link: https://zappala.byu.edu/pubs/wifu-mass-2012.pdf
-        venue: 9th IEEE International Conference on Mobile Ad-Hoc and Sensor Systems, 2012
-
-      - authors: C. Lavin, M. Padilla, J. Lamprecht, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
-        title: "HMFlow: Accelerating FPGA Compilation with Hard Macros for Rapid Prototyping"
-        link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5771262
-        venue: IEEE 19th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2011
-
-      - authors: C. Lavin, M. Padilla, J. Lamprecht, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
-        title: "RapidSmith: Do-It-Yourself CAD Tools for Xilinx FPGAs"
-        link: https://ieeexplore.ieee.org/document/6044842/
-        venue: International Conference on Field Programmable Logic and Applications (FPL), 2011
-
-      - authors: C. Lavin, M. Padilla, \textbf{P. Lundrigan}, B. Nelson, and B. Hutchings
-        title: "Rapid prototyping tools for FPGA designs: RapidSmith"
-        link: http://www.chrec.org/chrec-pubs/FPT10_B1.pdf
-        venue: International Conference on Field-Programmable Technology (FPT), 2010
-
-  - name: Invited Papers
+  - name: Peer-Reviewed International Oral Presentations  
     publications:
-      - authors: \textbf{P. Lundrigan}, N. Patwari, S. K. Kasera
-        title: "STRAP: Secure TRansfer of Association Protocol"
-        link: http://span.ece.utah.edu/pub/STRAP_camera_ready.pdf
-        venue: The 27th International Conference on Computer Communications and Networks (ICCCN), 2018
+      - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
+        title: Understanding How Software Properties Impact the Effectiveness of Automated Software Fault Tolerance
+        series: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Dec 2020
 
-  - name: Journals
+      - authors: Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
+        series: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2019
+    
+  - name: Peer-Reviewed International Poster Presentations
     publications:
-      - authors: S. Hegde, K. Min, J. Moore, \textbf{P. Lundrigan}, N. Patwari, S. C. Collingwood, and K. E. Kelly
-        title: Household Indoor Particulate Matter Measurement Using a Network of Low Cost Sensors
-        venue: Aerosol and Air Quality Research, 2019
-        link: http://www.aaqr.org/article/detail/AAQR-19-01-LCS-0046
-
-      - authors: J. Moore, P. Goffin, \textbf{P. Lundrigan}, N. Patwari, K. Sward, J. Weise, M. Meyer
-        title: Managing In-home Environments Through Sensing, Annotating, and Visualizing Air Quality Data
-        venue: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2018
-        link: http://doi.acm.org/10.1145/3264938
-
-      - authors: Tim Strayer, Samuel Nelson, Amando Caro, Joud Khoury, Bryan Tedesco, Olivia DeRosa, Carsten Clark, Kolia Sadeghi, Michael Matthews, Jake Kurzer, \textbf{Philip Lundrigan}, Vikas Kawadia, Dorene Ryder, Keith Gremban, Wayne Phoel
-        title: Content Sharing with Mobility in an Infrustructure-less Environment
-        venue: Computer Networks, 2018
-        link: https://authors.elsevier.com/a/1XTcC4xsUrrsXW
-
-      - authors: B. Mager, \textbf{P. Lundrigan}, and N. Patwari
-        title: "Fingerprint-Based Device-Free Localization: Performance in Changing Environments"
-        link: http://span.ece.utah.edu/uploads/main.pdf
-        venue: Journal on Selected Areas in Communications, 2015
-
-  - name: Demos
-    publications:
-      - authors: Kyeong T. Min, \textbf{Philip Lundrigan}, and Neal Patwari
-        title: IASA - Indoor Air Quality Sensing and Automation
-        link: http://span.ece.utah.edu/uploads/IPSN_Demo_Paper_2017_Final%20(1).pdf
-        venue: 16th ACM/IEEE International Conference on Information Processing
-          in Sensor Networks (IPSN), 2017
+      - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Microcontroller Compiler-Assisted Software Fault Tolerance
+        series: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2018
 
 service:
   - year: 2020
     activities: "TPCs: IPSN, WoWMoM (publicity co-chair); Reviewer: Transactions on Mobile Computing"
 
 talks:
-  - title: STRAP and Beyond
-    group:
-      - name: BYU Networking Club
-        date: December 2019
-        location: Provo, UT
+  - name: Invited Talks
+    talks:
+      - authors: Jeffrey Goeders
+        title: Debug Techniques for Digital Circuits
+        location: University of Waterloo, Ontario, Canada (virtual)
+        date: July 2021
 
-  - title: Networking Research for Linux
-    group:
-      - name: BYU Linux Club
-        date: September 2019
-        location: Provo, UT
+      - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
+        title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+        location: Xilinx Inc., Boulder, CO
+        date: May 2018
 
-  - title: On-off Noise Power Communication
-    group:
-      - name: MobiCom 2019
-        date: October 2019
-        location: Los Cabos, Mexico
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: In-System FPGA Debugging of High-Level Synthesis Circuits
+        location: Intel Programmable Solutions Group, Toronto, ON, Canada
+        date: Apr 2016
 
-  - title: "EpiFi: An In-Home IoT Architecture for Epidemiological Deployments"
-    group:
-      - name: BYU CCL Lab
-        date: April 2018
-        location: Provo, UT
-      - name: BYU IT Student Seminar
-        date: March 2018
-        location: Provo, UT
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Techniques for In-System FPGA Debugging of High-Level Synthesis Circuits
+        location: University of Toronto, Toronto, ON, Canada
+        date: Apr 2016
 
-  - title: "STRAP: Secure TRansfer of Association Protocol"
-    group:
-      - name: The 27th International Conference on Computer Communications and Networks (ICCCN)
-        date: July, 2018
-        location: China
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
+        location: Xilinx Inc., San Jose, CA, USA
+        date: Apr 2015
 
-  - title: "An Infrastructure for Generating Exposomes: Initial Lessons from the Utah PRISMS Platform"
-    group:
-      - name: 27th Annual Meeting of the International Society of Exposure Science (ISES)
-        date: October 2017
-        location: Research Park Triangle, NC
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
+        location: Altera Corp., Toronto, ON, Canada
+        date: Jan 2015
+      
+  - name: Conference Talks
+    talks:
+      - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
+        title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2018
+        
+      - authors: Jeffrey Goeders
+        title: Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2017
 
-  - title: In-Home Real-Time Sensor Networks
-    group:
-      - name: 33rd Annual Utah Conference on Safety \& Industrial Hygiene
-        date: October 2016
-        location: Salt Lake City, UT
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Quantifying observability for in-system debug of high-level synthesis circuits
+        location: International Conference on Field Programmable Logic and Applications (FPL)
+        date: Aug 2016
 
-  # Extra space
-  - title:
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Using Round-Robin Tracepoints to Debug Multithreaded HLS Circuits on FPGAs
+        location: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2015
 
-  - title: Mobile Live Video Upstreaming
-    group:
-      - name: ITC 28
-        date: September 2016
-        location: Wurzburg, Gemany
-      - name: BBN Lunch Talk
-        date: July 2015
-        location: Cambridge, MA
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2015
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
+        location: International Conference on Field Programmable Logic and Applications (FPL)
+        date: Sep 2014
+
+      - authors: Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton
+        title: Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition,” at International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+        date: Dec 2011
+
+  - name: Workshop Talks
+    talks:
+      - authors: Jeffrey Goeders, and Brad Hutchings
+        title: Approaches for FPGA Design Assurance
+        location: Military and Aerospace Programmable Logic Devices (MAPLD) Workshop
+        date: Aug 2021
+
+      - authors: Jeffrey Goeders, and Brad Hutchings
+        title: Assurance of Trusted 3rd-Party IP for Modern FPGAs
+        location: Military and Aerospace Programmable Logic Devices (MAPLD) Workshop
+        date: May 2019
+
+      - authors: Adam Hastings, Sean Jensen, Jeffrey Goeders, and Brad Hutchings
+        title: Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
+        location: International Verification and Security Workshop (IVSW)
+        date: Jul 2018
+
+      - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Automated Data Flow Protection for Software Fault Tolerance on Microcontrollers
+        location: Silicon Errors in Logic – System Effects (SELSE)
+        date: Apr 2018
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: "VersaPower: Power Estimation for Diverse FPGA Architectures"
+        location: "Cascadia: A joint workshop of UBC, SFU, and UWash on FPGA Research, SFU"
+        date: Aug 2012
+
+  - name: Artifact Demonstrations
+    talks: 
+      - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
+        title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+        location: Xilinx Developer Forum (XDF)
+        date: Oct 2018
+  
+      - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
+        title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: Oct 2018
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: "HLS-Scope: Debug Hardware Like it’s Software. Effective Source-Level Debugging of High-Level Synthesis Generated Circuits"
+        location: "Innovation 360: Symposium and Exposition on Micro-Nano Technologies and Systems"
+        date: Sep 2015
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: "HLS-Scope: FPGA Debug for High-Level Synthesis"
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2015
+
+      - authors: Jeffrey Goeders, and Steven J.E. Wilton
+        title: "HLS-Scope: FPGA Debug for High-Level Synthesis"
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2014
+
 
 grants:
   - title: Spectrum Sharing Via Interference-resilient Passive Receivers and Passive-aware Active Services

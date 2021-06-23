@@ -24,7 +24,7 @@ env:
 	$(IN_ENV) pip install nbconvert pypandoc pyyaml
 
 packages:
-	sudo apt-get install -y pandoc
+	sudo apt-get install -y python3.8-venv pandoc
 
 clean:
 	rm -rf $(BUILD_DIR) cv.pdf
