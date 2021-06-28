@@ -258,74 +258,91 @@ publications:
         title: Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems
         series: Design, Automation and Test in Europe Conference (DATE)
         date: Feb 2021
+        packet_desc: Work completed by my Master's student, Benjamin.  He authored the majority of the article under my supervision.
 
       - authors: Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings
         title: Using Novel Configuration Techniques for Accelerated FPGA Aging
         series: International Conference on Field-Programmable Logic and Applications (FPL)
         date: Aug 2020
+        packet_desc: Work primarily completed by a Master's student, Tanner (supervised by Brad Hutchings), and assisted by my undergraduate students Hayden, Wesley and Robert.  We jointly authored the paper.
 
       - authors: Matthew Ashcraft and Jeffrey Goeders
         title: Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
         series: International Conference on Field Programmable Technology (FPT)
         date: Dec 2019
+        packet_desc: Work completed by my PhD student, Matthew.  He primarily authored the paper with my help.
         
       - authors: Wesley Stirk and Jeffrey Goeders
         title: Implementation and Design Space Exploration of a Turbo Decoder in High-Level Synthesis
         series: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
         date: Dec 2019
+        packet_desc: Work completed by my Undergraduate student Wesley.  He and I authored the paper jointly.
 
       - authors: Daniel Holanda Noronha, Ruizhe Zhao, Zhiqiang Que, Jeffrey Goeders, Wayne Luk and Steve Wilton
         title: An Overlay for Rapid FPGA Debug of Machine Learning Applications
         series: International Conference on Field Programmable Technology (FPT)
         date: Dec 2019
+        packet_desc: Collaborative work between myself, and researchers at UBC and Imperial College London.  This builds on my PhD work.        
 
       - authors: Daniel Holanda Noronha, Ruizhe Zhao, Jeffrey Goeders, Wayne Luk, and Steven J.E. Wilton
         title: On-chip FPGA Debug Instrumentation for Machine Learning Applications
         series: International Symposium on Field-Programmable Gate Arrays (FPGA)
         pages: pp. 110-115
         date: Feb 2019
+        packet_desc: This is the first work demonstrating on-chip debug techniques for machine learning circuits.  This is collaborative work between myself, and researchers at UBC and Imperial College London.  This builds on my PhD work.
 
       - authors: Matthew Ashcraft and Jeffrey Goeders
         title: Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
         series: International Conference on Field Programmable Technology (FPT)
         pages: pp. 354-357
         date: Dec 2018
+        packet_desc: This is the first work that looks at debugging of traditional CPUs executing in tandem with custom synthesized hardware accelerators.  This is the first publication of a new project started with my PhD student Matthew.
 
       - authors: Al-Shahna Jamal, Jeffrey Goeders and Steve Wilton
         title: An FPGA Overlay Architecture Supporting Rapid Implementation of Functional Changes during On-Chip Debug
         series: International Conference on Field Programmable Logic and Applications (FPL)
         date: Aug 2018
+        packet_desc: Collaboration with University of British Columbia, extending my PhD work.  I provided regular consultation, code development, and article editing for this work.
 
       - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
         title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
         series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
         date: May 2018
+        packet_desc: I was the primary author of this work, with significant contributions made by Tanner Gaskin, an undergraduate BYU researcher in my lab. 
       
       - authors: Al-Shahna Jamal, Jeffrey Goeders, and Steven J.E. Wilton
         title: Architecture Exploration for HLS-Oriented FPGA Debug Overlays
         series: International Symposium on Field-Programmable Gate Arrays (FPGA)
         date: Feb 2018
+        packet_desc: Collaboration with University of British Columbia, extending my PhD work.  I provided regular consultation, code development, and article editing for this work.
 
       - authors: Pavan Kumar Bussa, Jeffrey Goeders, and Steven JE Wilton
         title: Accelerating in-system FPGA debug of high-level synthesis circuits using incremental compilation techniques
         series: International Conference on Field Programmable Logic and Applications (FPL)
         date: Sep 2017
+        packet_desc: Collaboration with University of British Columbia, extending my PhD work.  I provided regular consultation, code development, and article editing for this work.
 
       - authors: Jeffrey Goeders
         title: Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
         series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
         date: May 2017
+        packet_desc: Work completed upon arriving at BYU, before I had any research students. 
 
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Quantifying observability for in-system debug of high-level synthesis circuits
         series: International Conference on Field Programmable Logic and Applications (FPL)
         pages: pp. 1–11
         date: Aug 2016
+        pre_byu: true
+        packet_desc: Part of my PhD dissertation focusing on debugging automatically generated circuits.
   
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Using Round-Robin Tracepoints to Debug Multithreaded HLS Circuits on FPGAs
         series: International Conference on Field Programmable Technology (FPT)
         date: Dec 2015
+        pre_byu: true
+        packet_desc: Part of my PhD dissertation focusing on debugging automatically generated circuits.
+
 
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs
@@ -333,36 +350,48 @@ publications:
         pages: pp. 127–134
         date: May 2015
         note: Best Paper Award
+        pre_byu: true
+        packet_desc: Part of my PhD dissertation focusing on debugging automatically generated circuits.
 
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
         series: International Conference on Field Programmable Logic and Applications (FPL)
         pages: pp. 1–8
         date: Sep 2014
+        pre_byu: true
+        packet_desc: Part of my PhD dissertation focusing on debugging automatically generated circuits.
 
       - authors: Eddie Hung, Jeffrey Goeders, and Steven J.E. Wilton
         title: "Faster FPGA Debug: Efficiently Coupling Trace Instruments with User Circuitry"
         series: International Symposium on Applied Reconfigurable Computing (ARC)
         pages: pp. 73–84
         date: Apr 2014
+        pre_byu: true
+        packet_desc: Collaborative work with fellow student during my PhD.
 
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: "VersaPower: Power Estimation for Diverse FPGA Architectures" 
         series: International Conference on Field Programmable Technology (FPT)
         pages: pp. 229–234
         date: Dec 2012
+        pre_byu: true
+        packet_desc: Contributions from my Master's thesis.
 
       - authors: Jonathan Rose, Jason Luu, Chi Wai Yu, Opal Densmore, Jeffrey Goeders, Andrew Somerville, Kenneth B. Kent, Peter Jamieson, and Jason Anderson
         title: "The VTR Project: Architecture and CAD for FPGAs from Verilog to Routing"
         series: International Symposium on Field Programmable Gate Arrays (FPGA)
         pages: pp. 77 – 86
         date: Feb 2012
+        pre_byu: true
+        packet_desc: Collaborative work with University of Toronto during my Master’s thesis.
 
       - authors: Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton
         title: Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition
         series: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
         pages: pp. 41–48
         date: Dec 2011
+        pre_byu: true
+        packet_desc: Contributions from a course project during my Master's.
 
   - name: Peer-Reviewed International Workshop Publications
     publications:
@@ -370,6 +399,7 @@ publications:
         title: Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
         series: International Verification and Security Workshop (IVSW)
         date: Jul 2018
+        packet_desc: Collaborations with colleague, Brad Hutchings.  I provided regular consultation on this work, and helped with writing the paper.
 
   - name: Peer-Reviewed International Oral Presentations  
     publications:
@@ -377,18 +407,22 @@ publications:
         title: Understanding How Software Properties Impact the Effectiveness of Automated Software Fault Tolerance
         series: Nuclear and Space Radiation Effects Conference (NSREC)
         date: Dec 2020
+        packet_desc: Work done by my Master's student, Benjamin.  
 
       - authors: Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
         title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
         series: Nuclear and Space Radiation Effects Conference (NSREC)
         date: Jul 2019
-    
+        packet_desc: Work done by my Master's student, Benjamin.  
+
   - name: Peer-Reviewed International Poster Presentations
     publications:
       - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
         title: Microcontroller Compiler-Assisted Software Fault Tolerance
         series: Nuclear and Space Radiation Effects Conference (NSREC)
         date: Jul 2018
+        packet_desc: Work done by my Master's student, Matthew.  
+
 
 service:
   - type: Member of IEEE and ACM
