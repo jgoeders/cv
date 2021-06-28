@@ -174,12 +174,16 @@ publications:
         series: FPGAs for Software Programmers
         publisher: Springer
         date: 2016
+        pre_byu: true
+        packet_desc: A book chapter in tutorial format, describing how FPGA devices can be used to implement System on Chip designs.  I authored the majority of the chapter, and edited sections by the other authors. 
 
       - authors: Andrew Canis, Jongsok Choi, Blair Fort, Bain Syrowik, Ruo Long Lian, Yu Ting Chen, Hsuan Hsiao, Jeffrey Goeders, Stephen Brown, and Jason Anderson
         title: LegUp high-level synthesis
         series: FPGAs for Software Programmers
         publisher: Springer
         date: 2016
+        pre_byu: true
+        packet_desc: A book chapter regarding the open-source high-level synthesis tool, LegUp.  I had a minor role, contributing a few pages to this book chapter, summarizing some of my PhD work. 
 
   - name: Peer-Reviewed Journal Articles
     publications:
@@ -188,54 +192,65 @@ publications:
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         date: 2021
         status: Under Review, submitted June 2021
+        packet_desc: Work done by my Master's student, Hayden, along with help from my undergraduate students Jacob and Brent.  This built on work completed by Tanner (a Master student), who was supervised by Brad Hutchings.
 
       - authors: Eli Cahill, Jeffrey Goeders, and Brad Hutchings
         title: Approaches for FPGA Design Assurance
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         date: 2021
         status: Under Review, submitted April 2021
+        packet_desc: Work done by my Master's student, Eli.  This built on work previously completed by Brad Hutchings' (colleague in my department) students .
 
       - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
         title: Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
         series: IEEE Transactions on Nuclear Science (TNS)
         pages: vol. 68, no. 5, pp. 1014-1022
         date: Apr 2021
+        packet_desc: Work completed by my Master's student, Benjamin.  He and I jointly authored the article.
 
       - authors: Al-Shahna Jamal, Eli Cahill, Jeffrey Goeders, and Steven JE Wilton
         title: Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         pages: vol. 13, no. 1, pp. 1-26
         date: Feb 2020
+        packet_desc: This represents work done by then-undergraduate student, Eli Cahill, combined with work from my former research group.  I was the author for the majority of the article.
     
       - authors: Benjamin James, Heather Quinn, Michael Wirthlin, and Jeffrey Goeders
         title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
         series: IEEE Transactions on Nuclear Science (TNS)
         pages: vol. 67, no. 1, pp. 321-327
         date: Jan 2020
+        packet_desc: Work completed by my Master's student, Benjamin. I was the author for the majority of the article.
 
       - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
         title: Microcontroller Compiler-Assisted Software Fault Tolerance
         series: IEEE Transactions on Nuclear Science (TNS)
         pages: vol. 66, no. 1, pp. 223-232
         date: Jan 2019
+        packet_desc: This represents work done by Master's student Matthew, and undergraduate student, Benjamin.  The article was written by Matthew and me.  This was my first publication in a new area of tools for software reliability.
 
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Signal-Tracing Techniques for In-System FPGA Debugging of High-Level Synthesis Circuits
         series: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
         pages: vol. 36, no. 1, pp. 83-96
         date: Jan 2017
+        packet_desc: Completed during my transition to BYU. This covers a large portion of my PhD work. I was the author for the entirety of the article.
 
       - authors: Jeffrey Goeders and Steven J.E. Wilton
         title: Power Aware Architecture Exploration for Field Programmable Gate Arrays
         series: Journal of Low Power Electronics (JOLPE)
         pages: vol. 10, no. 3, pp. 297-312
         date: Sep. 2014
+        pre_byu: true
+        packet_desc: This article presents the contributions of my Master's work.  I wrote the entirety of the article.
 
       - authors: Jason Luu, Jeffrey Goeders, Michael Wainberg, Andrew Somerville, Thien Yu, Konstantin Nasartschuk, Miad Nasr, Sen Wang, Tim Liu, Nooruddin Ahmed, Kenneth B Kent, Jason Anderson, Jonathan Rose, and Vaughn Betz
         title: "VTR 7.0: Next Generation Architecture and CAD System for FPGAs"
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         pages: vol 7, no. 2,  pp. 6:1–30
         date: Jul 2014
+        pre_byu: true
+        packet_desc: During my Master's I was a major collaborator on VTR, an internationally used open-source tool.  This article describes the tool, experiments and findings.
 
   - name: Peer-Reviewed International Conference Publications
     publications:
