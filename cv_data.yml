@@ -737,13 +737,13 @@ grants:
     - authors: Brad Hutchings and Jeffrey Goeders
       title: "SHREC Industry Memberships: Trusted Electronics Research"
       agency: Lockheed Martin
-      amount: 50,000
+      amount: 40,000
       start: 2020
 
     - authors: Mike Wirthlin and Jeffrey Goeders
       title: "SHREC Industry Memberships"
       agency: Los Alamos National Lab (LANL)
-      amount: 100,000
+      amount: 80,000
       start: 2018
       end: 2019
 
