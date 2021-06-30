@@ -655,7 +655,7 @@ grants:
       end: 2024
 
     - authors: Michael Wirthlin, Jeffrey Goeders, Brad Hutchings, and Brent Nelson
-      title: "Phase-I IUCRC Brigham Young University: Center For Space, High-Performance, and Reslient Computing (SHREC)"
+      title: "Phase-I IUCRC Brigham Young University: Center For Space, High-Performance, and Resilient Computing (SHREC)"
       agency: National Science Foundation (NSF)
       amount: 750,000
       start: 2018
@@ -664,7 +664,7 @@ grants:
     - authors: Jeffrey Goeders, Brad Hutchings and Mike Wirthlin
       title: "SHREC Industry Memberships"
       agency: L3Harris
-      amount: 100,000
+      amount: 80,000
       start: 2020
       end: 2021
 
