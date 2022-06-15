@@ -21,7 +21,7 @@ $(BUILD_DIR):
 env:
 	python3.8 -m venv .venv
 	$(IN_ENV) pip install --upgrade pip
-	$(IN_ENV) pip install nbconvert pypandoc pyyaml
+	$(IN_ENV) pip install pandoc nbconvert pypandoc pyyaml
 
 packages:
 	sudo apt-get install -y python3.8-venv pandoc

@@ -159,9 +159,9 @@ experience:
     description: Toronto, ON, Canada
 
 citations:
-  hindex: 10
+  hindex: 11
   i10index: 11
-  citations: 992
+  citations: 1010
 
 publications:
   # - name: Under Review
@@ -187,19 +187,17 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
-      - authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
-        title: Inducing Non-Uniform FPGA Aging Using Configuration-Based Short Circuits
-        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-        date: 2021
-        status: Under Review, submitted June 2021
-        packet_desc: Work done by my Master's student, Hayden, along with help from my undergraduate students Jacob and Brent.  This built on work completed by Tanner (a Master student), who was supervised by Brad Hutchings.
-
       - authors: Eli Cahill, Jeffrey Goeders, and Brad Hutchings
         title: Approaches for FPGA Design Assurance
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-        date: 2021
-        status: Under Review, submitted April 2021
+        date: 2022
         packet_desc: Work done by my Master's student, Eli.  This built on work previously completed by Brad Hutchings' (colleague in my department) students .
+
+      - authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
+        title: Inducing Non-Uniform FPGA Aging Using Configuration-Based Short Circuits
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: 2022
+        packet_desc: Work done by my Master's student, Hayden, along with help from my undergraduate students Jacob and Brent.  This built on work completed by Tanner (a Master student), who was supervised by Brad Hutchings.
 
       - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
         title: Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
@@ -425,7 +423,8 @@ publications:
 
 
 service:
-  - type: Member of IEEE and ACM
+  - type: Senior Member, IEEE
+  - type: Senior Member, ACM
 
   - type: Contest Organizer
     venues: 
