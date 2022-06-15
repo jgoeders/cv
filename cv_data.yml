@@ -17,7 +17,7 @@ research_interests: >
 # As part of an NIH grant, I designed, built, and deployed an IoT architecture for in-home environmental sensors for epidemiological studies.
 
 education:
-  - end: 2016
+  - end: Sep 2012 to Oct 2016
     degree: Ph.D., Computer Engineering
     university: The University of British Columbia
     description:
@@ -26,7 +26,7 @@ education:
       - item: "Dissertation Title: Techniques for Enabling In-System Observation-based Debug of
 	High-Level Synthesis Circuits on FPGAs"
 
-  - end: 2012
+  - end: Sep 2010 to Sep 2012
     degree: M.A.Sc., Computer Engineering
     university: The University of British Columbia
     description:
@@ -34,7 +34,7 @@ education:
       - item: "Advisor: Steve Wilton"
       - item: "Thesis Title: Power Estimation for Diverse FPGA Architectures"
 
-  - end: 2012
+  - end: Sep 2007 to Apr 2010
     degree: B.A.Sc. w/ Honors, Computer Engineering
     university: University of Toronto
     # description:
@@ -133,27 +133,27 @@ professional:
 #           designs.
 
 experience:
-  - start: 2011 to 2016
+  - start: Jan 2011 to Jun 2016
     title: Teaching Assistant
     company: The University of British Columbia
     description: Department of Electrical and Computer Engineering
 
-  - start: 2013, Summer
+  - start: 2013, May-Aug
     title: EDA Software Developer, Internship
     company: Blackcomb Design Automation
     description: Vancouver, BC, Canada
 
-  - start: 2010, Summer
+  - start: 2010, May-Aug
     title: Firmware Developer, Internship
     company: PMC-Sierra
     description: Burnaby, BC, Canada
 
-  - start: 2009, Summer    
+  - start: 2009, May-Aug    
     title: Undergraduate Researcher
     company: High-Performance Computing Lab
     description: University of Toronto, Toronto, ON, Canada
 
-  - start: 2006 to 2009
+  - start: Sep 2006 to Apr 2009
     title: Software and Database Developer
     company: Bombardier Aerospace
     description: Toronto, ON, Canada
