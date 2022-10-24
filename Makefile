@@ -1,5 +1,5 @@
 BUILD_DIR = build
-PDF_NAME = cv
+PDF_NAME = jgoeders_cv
 
 BUILD_PY = build.py
 DATA_YML = cv_data.yml

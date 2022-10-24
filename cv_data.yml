@@ -1,5 +1,5 @@
 name: Jeffrey Goeders
-title: Assistant Professor
+title: Associate Professor
 company: Brigham Young University
 email: jgoeders@byu.edu
 # web_site: philip.lundrigan.org
@@ -17,7 +17,8 @@ research_interests: >
 # As part of an NIH grant, I designed, built, and deployed an IoT architecture for in-home environmental sensors for epidemiological studies.
 
 education:
-  - end: Sep 2012 to Oct 2016
+  - start: Sep 2012 
+    end: Oct 2016
     degree: Ph.D., Computer Engineering
     university: The University of British Columbia
     description:
@@ -26,7 +27,8 @@ education:
       - item: "Dissertation Title: Techniques for Enabling In-System Observation-based Debug of
 	High-Level Synthesis Circuits on FPGAs"
 
-  - end: Sep 2010 to Sep 2012
+  - start: Sep 2010
+    end: Sep 2012
     degree: M.A.Sc., Computer Engineering
     university: The University of British Columbia
     description:
@@ -34,15 +36,21 @@ education:
       - item: "Advisor: Steve Wilton"
       - item: "Thesis Title: Power Estimation for Diverse FPGA Architectures"
 
-  - end: Sep 2007 to Apr 2010
+  - start: Sep 2007
+    end: Apr 2010
     degree: B.A.Sc. w/ Honors, Computer Engineering
     university: University of Toronto
     # description:
     #   - item: hi
 
 professional:
-  - start: July 2016
+  - start: Sep 2022
     end: Present
+    university: Brigham Young University
+    position: Associate Professor
+    department: Department of Electrical and Computer Engineering
+  - start: July 2016
+    end: Aug 2022
     university: Brigham Young University
     position: Assistant Professor
     department: Department of Electrical and Computer Engineering
@@ -158,10 +166,16 @@ experience:
     company: Bombardier Aerospace
     description: Toronto, ON, Canada
 
+volunteer_experience:
+  - start: Sep 2004 to Sep 2006
+    title: Religious Service Mission
+    company: The Church of Jesus Christ of Latter-Day Saints
+    description: Salt Lake City, UT
+
 citations:
-  hindex: 11
-  i10index: 11
-  citations: 1010
+  hindex: 12
+  i10index: 15
+  citations: 1155
 
 publications:
   # - name: Under Review
@@ -429,7 +443,12 @@ service:
   - type: Contest Organizer
     venues: 
       - name: Design Automation Conference (DAC) System Design Contest
-        years: 2020 to 2021
+        years: 2020 to 2022
+
+  - type: Workshop Organizer
+    venues:
+      - name: Workshop on Security for Custom Computing Machines (SCCM)
+        years: 2019, 2022
 
   - type: Information Director
     venues:
@@ -600,11 +619,13 @@ teaching_instructor:
       - Fall 2020
       - Spring 2021
       - Fall 2021
+      - Fall 2022
 
   - code: ECEN 427
     title: Embedded Systems
     terms:
       - Fall 2021
+      - Fall 2022
 
   - code: ECEN 522R
     title: High-Level Digital Design Automation
@@ -622,6 +643,7 @@ teaching_instructor:
     terms:
       - Winter 2018
       - Winter 2020
+      - Winter 2022
 
 teaching_ta:
   - code: EECE 381
@@ -662,7 +684,7 @@ course_development:
       - In 2021 we had over 30 undergraduate students participate.
 
   - name: "ECEN 330: Intro to Embedded Systems Programming (BYU)"
-    url: http://ecen330-lin.groups.et.byu.net/wiki/doku.php
+    url: https://byu-cpe.github.io/ecen330/
     bullets:
       - Migrated all labs and development infrastructure to use Linux-based, open-source, command-line tools.  
       - Created automated testing, submission, and grading infrastructure to alleviate teaching assistant burden, and provide more time for one-on-one student interactions.

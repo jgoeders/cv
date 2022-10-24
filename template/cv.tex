@@ -8,6 +8,9 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{makecell}
+
 
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
 
@@ -41,8 +44,11 @@
 \vbadness=10000
 \vfuzz=50pt
 
+\newlength{\leftwidth}
+\setlength{\leftwidth}{3cm}
+
 \newcolumntype{G}{>{\raggedleft\arraybackslash}p{2cm}}
-\newcolumntype{Z}{>{\raggedleft\arraybackslash}p{3cm}}
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}p{\leftwidth}}
 
 
 % add the symbols for email and phone contact data
@@ -104,11 +110,12 @@
     %%%%%%  EDUCATION  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \section{Education}
     \BLOCK{ call(item) table(education) }
-    \textbf{\VAR{item.end}} & \textbf{\VAR{item.university}}, \emph{\VAR{item.degree}} \\
+    \multirow{1}{\leftwidth}{\textbf{\makecell[r]{\VAR{item.start} to\\ \VAR{item.end}}}} & \textbf{\VAR{item.university}}, \emph{\VAR{item.degree}} \\
     \BLOCK{ for bullet in item.description }
     & \VAR{bullet.item} \\
     \BLOCK{ endfor }
     \BLOCK{ endcall }
+    \vspace{0.2in}
 
 %%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Professional Experience}
@@ -196,6 +203,18 @@
 \BLOCK{ endif }
 \BLOCK{ endcall }
 
+
+\BLOCK{ if False }
+\section{Volunteer Experience}
+\BLOCK{ call(item) table(volunteer_experience)}
+\BLOCK{ if item.title }
+\textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}}      & \textbf{\VAR{item.title}}, \emph{\VAR{item.company}} \\
+\textbf{\VAR{item.end}}           & \VAR{item.description | md2latex} \\
+\BLOCK{ endif }
+\BLOCK{ endcall }
+\BLOCK{ endif }
+
+
 %%%%%% CITATIONS  %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{center}
 
@@ -222,15 +241,15 @@ i10-index: \VAR{citations.i10index}
 \begin{center}
 
 %%%%%%  Grants  %%%%%%%%%%%%%%%
-% \section{Grants}
-% \begin{longtable}[1\linewidth]{Gp{15cm}}
-%     \BLOCK{ for item in grants.funded }
-%     \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
-%     \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
-%            & \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }                                        \\
-%            \\
-%     \BLOCK{ endfor }
-% \end{longtable}
+\section{Grants}
+\begin{longtable}[1\linewidth]{Gp{15cm}}
+    \BLOCK{ for item in grants.funded }
+    \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
+    \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
+           & \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }                                        \\
+           \\
+    \BLOCK{ endfor }
+\end{longtable}
 
 
 

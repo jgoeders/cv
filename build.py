@@ -134,7 +134,7 @@ def main():
         comment_start_string="\#{",
         comment_end_string="}",
         # line_statement_prefix="%%",
-        # line_comment_prefix="%",
+        line_comment_prefix="%#",
         trim_blocks=True,
         autoescape=False,
         loader=jinja2.FileSystemLoader(os.path.abspath(".")),
