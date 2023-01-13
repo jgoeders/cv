@@ -2,7 +2,7 @@ name: Jeffrey Goeders
 title: Associate Professor
 company: Brigham Young University
 email: jgoeders@byu.edu
-# web_site: philip.lundrigan.org
+web_site: jeff.goeders.com
 github: github.com/jgoeders
 phone_number: 801-422-3499
 
@@ -173,9 +173,9 @@ volunteer_experience:
     description: Salt Lake City, UT
 
 citations:
-  hindex: 12
-  i10index: 15
-  citations: 1155
+  hindex: 13
+  i10index: 16
+  citations: 1200
 
 publications:
   # - name: Under Review
@@ -379,7 +379,7 @@ publications:
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Using Dynamic Signal-Tracing to Debug Compiler-Optimized HLS Circuits on FPGAs
         series: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
-        pages: pp. 127–134
+        pages: pp. 127-134
         date: May 2015
         note: Best Paper Award
         pre_byu: true
@@ -388,7 +388,7 @@ publications:
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: Effective FPGA Debug for High-Level Synthesis Generated Circuits
         series: International Conference on Field Programmable Logic and Applications (FPL)
-        pages: pp. 1–8
+        pages: pp. 1-8
         date: Sep 2014
         pre_byu: true
         packet_desc: Part of my PhD dissertation focusing on debugging automatically generated circuits.
@@ -396,7 +396,7 @@ publications:
       - authors: Eddie Hung, Jeffrey Goeders, and Steven J.E. Wilton
         title: "Faster FPGA Debug: Efficiently Coupling Trace Instruments with User Circuitry"
         series: International Symposium on Applied Reconfigurable Computing (ARC)
-        pages: pp. 73–84
+        pages: pp. 73-84
         date: Apr 2014
         pre_byu: true
         packet_desc: Collaborative work with fellow student during my PhD.
@@ -404,7 +404,7 @@ publications:
       - authors: Jeffrey Goeders, and Steven J.E. Wilton
         title: "VersaPower: Power Estimation for Diverse FPGA Architectures" 
         series: International Conference on Field Programmable Technology (FPT)
-        pages: pp. 229–234
+        pages: pp. 229-234
         date: Dec 2012
         pre_byu: true
         packet_desc: Contributions from my Master's thesis.
@@ -412,7 +412,7 @@ publications:
       - authors: Jonathan Rose, Jason Luu, Chi Wai Yu, Opal Densmore, Jeffrey Goeders, Andrew Somerville, Kenneth B. Kent, Peter Jamieson, and Jason Anderson
         title: "The VTR Project: Architecture and CAD for FPGAs from Verilog to Routing"
         series: International Symposium on Field Programmable Gate Arrays (FPGA)
-        pages: pp. 77 – 86
+        pages: pp. 77-86
         date: Feb 2012
         pre_byu: true
         packet_desc: Collaborative work with University of Toronto during my Master’s thesis.
@@ -420,7 +420,7 @@ publications:
       - authors: Jeffrey Goeders, Guy Lemieux, and Steven J.E. Wilton
         title: Deterministic Timing-Driven Parallel Placement by Simulated Annealing Using Half-Box Window Decomposition
         series: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
-        pages: pp. 41–48
+        pages: pp. 41-48
         date: Dec 2011
         pre_byu: true
         packet_desc: Contributions from a course project during my Master's.
@@ -657,6 +657,7 @@ teaching_instructor:
     terms:
       - Winter 2019
       - Winter 2021
+      - Winter 2023
 
   - code: ECEN 629
     title: Reconfigurable Computing Systems 
@@ -722,6 +723,20 @@ course_development:
 
 grants:
   funded:
+    - authors: Jeffrey Goeders
+      title: "FPGA Bitstream-level Equivalence Checking: Securing the FPGA 'Digital Fab'"
+      agency: Office of Naval Research (ONR)
+      amount: 100,000
+      start: 2022
+      end: 2023
+
+    - authors: Jeffrey Goeders
+      title: "GrammaTech: FPGA Bitstream Analysis"
+      agency: GrammaTech, Office of Naval Research (ONR)
+      amount: 80,000
+      start: 2022
+      end: 2023
+
     - authors: Michael Wirthlin and Jeffrey Goeders
       title: "Interaction of Ionizing Radiation with Matter, University Research Alliance (IIRM–URA)"
       agency: Defense Threat Reduction Agency (DTRA)
