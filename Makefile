@@ -19,7 +19,7 @@ $(BUILD_DIR):
 	mkdir $@
 	
 env:
-	python3.8 -m venv .venv
+	python3 -m venv .venv
 	$(IN_ENV) pip install --upgrade pip
 	$(IN_ENV) pip install pandoc nbconvert pypandoc pyyaml
 

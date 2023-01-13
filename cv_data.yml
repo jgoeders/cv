@@ -201,17 +201,24 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
-      - authors: Eli Cahill, Jeffrey Goeders, and Brad Hutchings
-        title: Approaches for FPGA Design Assurance
-        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-        date: 2022
-        packet_desc: Work done by my Master's student, Eli.  This built on work previously completed by Brad Hutchings' (colleague in my department) students .
+      - authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeffrey Goeders, and Michael Wirthlin
+        title: Comparison of Neutron Radiation Testing Approaches for a Complex SoC
+        series: IEEE Transactions on Nuclear Science (TNS)
+        date: Jan 2023
 
       - authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
         title: Inducing Non-Uniform FPGA Aging Using Configuration-Based Short Circuits
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        pages: vol. 15, no. 4, pp.1-33
         date: 2022
         packet_desc: Work done by my Master's student, Hayden, along with help from my undergraduate students Jacob and Brent.  This built on work completed by Tanner (a Master student), who was supervised by Brad Hutchings.
+
+      - authors: Eli Cahill, Brad Hutchings and Jeffrey Goeders
+        title: Approaches for FPGA Design Assurance
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        pages: vol. 15, no. 3, pp.1-29
+        date: 2021
+        packet_desc: Work done by my Master's student, Eli.  This built on work previously completed by Brad Hutchings' (colleague in my department) students .
 
       - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
         title: Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
@@ -266,6 +273,19 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
+    
+      - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
+        title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF"
+        series: International Conference on Field-Programmable Technology (FPT)
+        date: Dec 2022
+        pages: 1-10
+
+      - authors: Reilly McKendrick, Corey Simpson, Brent Nelson, and Jeffrey Goeders
+        title: Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering
+        series: International Conference on Field-Programmable Technology (FPT)
+        date: Dec 2022
+        pages: 1-5
+
       - authors: Benjamin James, and Jeffrey Goeders
         title: Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems
         series: Design, Automation and Test in Europe Conference (DATE)
