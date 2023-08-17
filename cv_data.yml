@@ -201,6 +201,11 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
+      - authors: Wesley Stirk, Dolores A. Black, Jeffrey D. Black, Matthew Breeding, Roy P. Cuoco, Mike Wirthlin, and Jeffrey Goeders
+        title: The Effects of Gamma Ray Integrated Dose on a Commercial 65-nm SRAM Device
+        series: IEEE Transactions on Nuclear Science (TNS)
+        date: Jun 2023
+        
       - authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeffrey Goeders, and Michael Wirthlin
         title: Comparison of Neutron Radiation Testing Approaches for a Complex SoC
         series: IEEE Transactions on Nuclear Science (TNS)
