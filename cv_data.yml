@@ -507,6 +507,16 @@ service:
 talks:
   - name: Invited Talks
     talks:
+      - authors: Mike Wirthlin and Jeffrey Goeders
+        title: Radiation Testing Approaches for Commercial System-on-Chip (SoC) Devices 
+        location: Office of the Under Secretary of Defense for Research \& Engineering
+        date: Nov 2023
+
+      - authors: Jeffrey Goeders
+        title: FPGA Security Projects in BYU's Configurable Computing Lab
+        location: Georgia Tech Research Institute
+        date: Mar 2023
+
       - authors: Jeffrey Goeders
         title: Debug Techniques for Digital Circuits
         location: University of Waterloo, Ontario, Canada (virtual)
