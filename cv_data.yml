@@ -627,10 +627,26 @@ talks:
 
   - name: Workshop Talks
     talks:
+      - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
+        title: "Cloning the Unclonable: Physically Cloning an FPGA RO PUF"
+        location: Workshop on Security for Custom Computing Machines (SCCM)
+        date: Feb 2023
+
+
+      - authors: Hayden Cook, and Jeffrey Goeders
+        title: Short Circuit Induced Aging on FPGAs
+        location: Workshop on Security for Custom Computing Machines (SCCM)
+        date: Feb 2022
+
       - authors: Jeffrey Goeders, and Brad Hutchings
         title: Approaches for FPGA Design Assurance
         location: Military and Aerospace Programmable Logic Devices (MAPLD) Workshop
         date: Aug 2021
+
+      - authors: Jeffrey Goeders, and Brad Hutchings
+        title: Assurance of Trusted 3rd-Party IP for Modern FPGAs
+        location: Workshop on Security for Custom Computing Machines (SCCM)
+        date: May 2019
 
       - authors: Jeffrey Goeders, and Brad Hutchings
         title: Assurance of Trusted 3rd-Party IP for Modern FPGAs
