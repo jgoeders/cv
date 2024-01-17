@@ -806,7 +806,7 @@ grants:
     - authors: Jeffrey Goeders and Michael Wirthlin
       title: "Investigation of radiation effects and development of testing capabilities on Complex ICs in a radiation environment"
       agency: Sandia National Laboratories
-      amount: 120,000
+      amount: 100,000
       start: 2023
       end: 2024
 
