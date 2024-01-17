@@ -241,15 +241,15 @@ i10-index: \VAR{citations.i10index}
 \begin{center}
 
 %%%%%%  Grants  %%%%%%%%%%%%%%%
-% \section{Grants}
-% \begin{longtable}[1\linewidth]{Gp{15cm}}
-%     \BLOCK{ for item in grants.funded }
-%     \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
-%     \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
-%            & \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }                                        \\
-%            \\
-%     \BLOCK{ endfor }
-% \end{longtable}
+\section{Grants}
+\begin{longtable}[1\linewidth]{Gp{15cm}}
+    \BLOCK{ for item in grants.funded }
+    \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif}} & \VAR{bold_my_name(item.authors)} \\ 
+    \textbf{ \VAR{item.end}} & ``\VAR{item.title}'' \\
+           & \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }                                        \\
+           \\
+    \BLOCK{ endfor }
+\end{longtable}
 
 
 

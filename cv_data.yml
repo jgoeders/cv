@@ -173,9 +173,9 @@ volunteer_experience:
     description: Salt Lake City, UT
 
 citations:
-  hindex: 13
-  i10index: 16
-  citations: 1200
+  hindex: 14
+  i10index: 17
+  citations: 1332
 
 publications:
   # - name: Under Review
@@ -278,7 +278,24 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
-    
+
+      - authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, and Jeffrey Goeders
+        title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"
+        series:   Physical Assurance and Inspection of Electronics Conference (PAINE)
+        pages: 26-32
+        date: Oct 2023
+
+      - authors: Hayden Cook, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
+        title: "Improving the Reliability of FPGA CRO PUFs"
+        series: International Conference on Field-Programmable Logic and Applications (FPL)
+        pages: 311-316
+        date: Sep 2023
+
+      - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
+        title: "Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison"
+        series: International Conference on Field-Programmable Technology (FPT)
+        date: Dec 2023
+
       - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
         title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF"
         series: International Conference on Field-Programmable Technology (FPT)
@@ -440,6 +457,11 @@ publications:
 
   - name: Peer-Reviewed International Oral Presentations  
     publications:
+      - authors: Wesley Stirk, Jeffrey Goeders, Michael Wirthlin, Jeff Black, Dolores Black, and Roy Cuoco.
+        title: The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device
+        series: Radiation Effects on Components and Systems (RADECS)
+        date: Oct 2022
+
       - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
         title: Understanding How Software Properties Impact the Effectiveness of Automated Software Fault Tolerance
         series: Nuclear and Space Radiation Effects Conference (NSREC)
@@ -454,6 +476,16 @@ publications:
 
   - name: Peer-Reviewed International Poster Presentations
     publications:
+      - authors: Wesley Stirk, Michael Wirthlin, and Jeffrey Goeders
+        title: The Effects of Gamma Ray Dose on Dynamic Operation of a Commercial FRAM Device 
+        series: Radiation Effects on Components and Systems (RADECS)
+        date: Oct 2023
+
+      - authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeffrey Goeders, and Michael Wirthling
+        title: Comparison of Neutron Radiation Testing Approaches for a Complex SoC
+        series: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2022
+
       - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
         title: Microcontroller Compiler-Assisted Software Fault Tolerance
         series: Nuclear and Space Radiation Effects Conference (NSREC)
@@ -468,18 +500,28 @@ service:
   - type: Contest Organizer
     venues: 
       - name: Design Automation Conference (DAC) System Design Contest
-        years: 2020 to 2022
+        years: 2020 to 2023
 
   - type: Workshop Organizer
     venues:
       - name: Workshop on Security for Custom Computing Machines (SCCM)
-        years: 2019, 2022
+        years: 2019, 2022, 2023
 
   - type: Information Director
     venues:
       - name: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         years: 2018 to Present
   
+  - type: Workshop Chair
+    venues:
+      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2024
+
+  - type: Publicity Chair
+    venues:
+      - name: International Workshop on LLM-Aided Design (LAD)
+        years: 2024
+
   - type: Technical Program Committee (TPC) Member
     venues:
       - name: International Symposium on Field-Programmable Gate Arrays (FPGA)
@@ -661,11 +703,17 @@ teaching_instructor:
     terms:
       - Fall 2021
       - Fall 2022
+      - Winter 2024
 
   - code: ECEN 522R
     title: High-Level Digital Design Automation
     terms:
       - Winter 2017
+
+  - code: ECEN 522R
+    title: ASIC VLSI CAD Tools
+    terms:
+      - Fall 2023
 
   - code: ECEN 625
     title: Compilation Strategies for High-Performance Programs 
@@ -680,6 +728,7 @@ teaching_instructor:
       - Winter 2018
       - Winter 2020
       - Winter 2022
+      - Winter 2024
 
 teaching_ta:
   - code: EECE 381
@@ -738,19 +787,26 @@ course_development:
 
 grants:
   funded:
+    - authors: Jeffrey Goeders and Michael Wirthlin
+      title: "Investigation of radiation effects and development of testing capabilities on Complex ICs in a radiation environment"
+      agency: Sandia National Laboratories
+      amount: 120,000
+      start: 2023
+      end: 2024
+
     - authors: Jeffrey Goeders
       title: "FPGA Bitstream-level Equivalence Checking: Securing the FPGA 'Digital Fab'"
       agency: Office of Naval Research (ONR)
-      amount: 100,000
+      amount: 194,666
       start: 2022
-      end: 2023
+      end: 2024
 
     - authors: Jeffrey Goeders
       title: "GrammaTech: FPGA Bitstream Analysis"
       agency: GrammaTech, Office of Naval Research (ONR)
-      amount: 80,000
+      amount: 131,615
       start: 2022
-      end: 2023
+      end: 2024
 
     - authors: Michael Wirthlin and Jeffrey Goeders
       title: "Interaction of Ionizing Radiation with Matter, University Research Alliance (IIRM–URA)"
@@ -762,16 +818,9 @@ grants:
     - authors: Michael Wirthlin, Jeffrey Goeders, Brad Hutchings, and Brent Nelson
       title: "Phase-I IUCRC Brigham Young University: Center For Space, High-Performance, and Resilient Computing (SHREC)"
       agency: National Science Foundation (NSF)
-      amount: 750,000
+      amount: 1,209,256
       start: 2018
-      end: 2022
-
-    - authors: Jeffrey Goeders, Brad Hutchings and Mike Wirthlin
-      title: "SHREC Industry Memberships"
-      agency: L3Harris
-      amount: 80,000
-      start: 2020
-      end: 2021
+      end: 2024
 
     - authors: Jeffrey Goeders and Brad Hutchings
       title: "Empirical Investigations of Field-Programmable Gate Arrays"
@@ -796,27 +845,6 @@ grants:
       agency: Google
       amount: 40,000
       start: 2021
-
-
-    - authors: Brad Hutchings and Jeffrey Goeders
-      title: "SHREC Industry Memberships: Trusted Electronics Research"
-      agency: Air Force Research Laboratory (AFRL)
-      amount: 150,000
-      start: 2018
-      end: 2020
-
-    - authors: Brad Hutchings and Jeffrey Goeders
-      title: "SHREC Industry Memberships: Trusted Electronics Research"
-      agency: Lockheed Martin
-      amount: 40,000
-      start: 2020
-
-    - authors: Mike Wirthlin and Jeffrey Goeders
-      title: "SHREC Industry Memberships"
-      agency: Los Alamos National Lab (LANL)
-      amount: 80,000
-      start: 2018
-      end: 2019
 
     - authors: Brent Nelson and Jeffrey Goeders
       title: "CHREC Industry Memberships"
