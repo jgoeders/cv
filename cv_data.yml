@@ -627,11 +627,15 @@ talks:
 
   - name: Workshop Talks
     talks:
+      - authors: Jeffrey Goeders
+        title: "Leveraging FPGA Reverse Engineering for Secure CAD Flows"
+        location: Hardware Reverse Engineering Workshop (HARRIS)
+        date: Mar 2024
+
       - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
         title: "Cloning the Unclonable: Physically Cloning an FPGA RO PUF"
         location: Workshop on Security for Custom Computing Machines (SCCM)
         date: Feb 2023
-
 
       - authors: Hayden Cook, and Jeffrey Goeders
         title: Short Circuit Induced Aging on FPGAs
