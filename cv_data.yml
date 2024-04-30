@@ -175,7 +175,7 @@ volunteer_experience:
 citations:
   hindex: 14
   i10index: 17
-  citations: 1332
+  citations: 1362
 
 publications:
   # - name: Under Review
@@ -201,6 +201,16 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
+      - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
+        title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: 2024
+
+      - authors: Nathan Harris, Wesley Stirk, Dolores Black, Jeff Black, Michael Wirthlin, and Jeffrey Goeders
+        title: Dynamic Testing of a Commercial FRAM Device Under Gamma Ray Dose and Neutron Beam
+        series: IEEE Transactions on Nuclear Science (TNS)
+        date: 2024
+
       - authors: Wesley Stirk, Dolores A. Black, Jeffrey D. Black, Matthew Breeding, Roy P. Cuoco, Mike Wirthlin, and Jeffrey Goeders
         title: The Effects of Gamma Ray Integrated Dose on a Commercial 65-nm SRAM Device
         series: IEEE Transactions on Nuclear Science (TNS)
@@ -215,14 +225,14 @@ publications:
         title: Inducing Non-Uniform FPGA Aging Using Configuration-Based Short Circuits
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         pages: vol. 15, no. 4, pp.1-33
-        date: 2022
+        date: Jun 2022
         packet_desc: Work done by my Master's student, Hayden, along with help from my undergraduate students Jacob and Brent.  This built on work completed by Tanner (a Master student), who was supervised by Brad Hutchings.
 
       - authors: Eli Cahill, Brad Hutchings and Jeffrey Goeders
         title: Approaches for FPGA Design Assurance
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         pages: vol. 15, no. 3, pp.1-29
-        date: 2021
+        date: Dec 2021
         packet_desc: Work done by my Master's student, Eli.  This built on work previously completed by Brad Hutchings' (colleague in my department) students .
 
       - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
@@ -278,6 +288,10 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
+      - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
+        title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
+        series: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2023
 
       - authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, and Jeffrey Goeders
         title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"

@@ -1,30 +1,30 @@
-BUILD_DIR = build
-PDF_NAME = jgoeders_cv
+BUILD_DIR=build
+PDF_NAME=jgoeders_cv
 
-BUILD_PY = build.py
-DATA_YML = cv_data.yml
-TEMPLATE_TEX = template/cv.tex
-RENDERED_TEX = build/rendered.tex
+BUILD_PY=build.py
+DATA_YML=cv_data.yml
+TEMPLATE_TEX=template/cv.tex
+RENDERED_TEX=build/rendered.tex
 
-IN_ENV = if [ -e .venv/bin/activate ]; then . .venv/bin/activate; fi;
+IN_ENV=. .venv/bin/activate;
 
 $(PDF_NAME).pdf: $(RENDERED_TEX)
-	cd $(BUILD_DIR) && pdflatex -jobname=$(PDF_NAME) -output-directory=. ../$^ 
+	cd $(BUILD_DIR) && pdflatex -jobname=$(PDF_NAME) -output-directory=. ../$^
 	cp $(BUILD_DIR)/$(PDF_NAME).pdf .
 
-$(RENDERED_TEX): $(BUILD_DIR) $(TEMPLATE_TEX) $(DATA_YML) $(BUILD_PY) Makefile
+$(RENDERED_TEX): $(BUILD_DIR) $(TEMPLATE_TEX) $(DATA_YML) $(BUILD_PY)
 	$(IN_ENV) python3 $(BUILD_PY) $(TEMPLATE_TEX) $(DATA_YML) > $@
 
 $(BUILD_DIR):
 	mkdir $@
 	
-env:
+env: .venv/bin/activate
+	sudo apt-get install -y pandoc
+
+.venv/bin/activate: requirements.txt
 	python3 -m venv .venv
 	$(IN_ENV) pip install --upgrade pip
-	$(IN_ENV) pip install pandoc nbconvert pypandoc pyyaml
-
-packages:
-	sudo apt-get install -y pandoc
+	$(IN_ENV) pip install -r requirements.txt
 
 clean:
 	rm -rf $(BUILD_DIR) cv.pdf
