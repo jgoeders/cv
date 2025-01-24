@@ -510,31 +510,46 @@ publications:
 service:
   - type: Senior Member, IEEE
   - type: Senior Member, ACM
-
-  - type: Contest Organizer
-    venues: 
-      - name: Design Automation Conference (DAC) System Design Contest
-        years: 2020 to 2023
-
+  
   - type: Workshop Organizer
     venues:
       - name: Workshop on Security for Custom Computing Machines (SCCM)
-        years: 2019, 2022, 2023
-
-  - type: Information Director
-    venues:
-      - name: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-        years: 2018 to Present
-  
-  - type: Workshop Chair
-    venues:
-      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
-        years: 2024
+        years: 2019, 2022, 2023, 2025
 
   - type: Publicity Chair
     venues:
       - name: International Workshop on LLM-Aided Design (LAD)
         years: 2024
+      - name: International Conference on LLM-Aided Design (LAD)
+        years: 2025
+
+  - type: Short Course Speaker
+    venues:
+      - name: IEEE Nuclear \& Space Radiation Effects Conference (NSREC)
+        years: 2025
+
+  - type: Sponsorship Chair
+    venues:
+      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2025
+
+  - type: Workshop Chair
+    venues:
+      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2024
+
+  - type: Information Director
+    venues:
+      - name: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        years: 2018 to Present
+
+
+
+
+  - type: Contest Organizer
+    venues: 
+      - name: Design Automation Conference (DAC) System Design Contest
+        years: 2020 to 2023
 
   - type: Technical Program Committee (TPC) Member
     venues:
@@ -821,40 +836,47 @@ course_development:
 
 grants:
   funded:
+    - authors: Mike Wirthlin and Jeffrey Goeders
+      title: "LLM-aided Design of High-Level Synthesis Circuits"
+      agency: AMD
+      amount: 30,000
+      start: 2025
+      end: 2025
+
     - authors: Jeffrey Goeders and Michael Wirthlin
       title: "Investigation of radiation effects and development of testing capabilities on Complex ICs in a radiation environment"
       agency: Sandia National Laboratories
-      amount: 100,000
+      amount: 200,000
       start: 2023
-      end: 2024
+      end: Present
 
     - authors: Jeffrey Goeders
       title: "FPGA Bitstream-level Equivalence Checking: Securing the FPGA 'Digital Fab'"
       agency: Office of Naval Research (ONR)
-      amount: 194,666
+      amount: 291,897
       start: 2022
-      end: 2024
+      end: 2025
 
     - authors: Jeffrey Goeders
       title: "GrammaTech: FPGA Bitstream Analysis"
       agency: GrammaTech, Office of Naval Research (ONR)
-      amount: 131,615
+      amount: 267,050
       start: 2022
-      end: 2024
+      end: 2025
 
     - authors: Michael Wirthlin and Jeffrey Goeders
       title: "Interaction of Ionizing Radiation with Matter, University Research Alliance (IIRM–URA)"
       agency: Defense Threat Reduction Agency (DTRA)
       amount: 1,095,000
       start: 2020
-      end: 2024
+      end: 2026
 
     - authors: Michael Wirthlin, Jeffrey Goeders, Brad Hutchings, and Brent Nelson
       title: "Phase-I IUCRC Brigham Young University: Center For Space, High-Performance, and Resilient Computing (SHREC)"
       agency: National Science Foundation (NSF)
       amount: 1,209,256
       start: 2018
-      end: 2024
+      end: Present
 
     - authors: Jeffrey Goeders and Brad Hutchings
       title: "Empirical Investigations of Field-Programmable Gate Arrays"

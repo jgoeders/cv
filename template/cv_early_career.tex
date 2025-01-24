@@ -1,0 +1,186 @@
+\documentclass[10pt, oneside]{article}
+\usepackage{soul} % Used for the title name (eg. the Elliot John Reed cv title)
+\usepackage{titlesec}
+\usepackage{marvosym} % add the symbols for email and phone contact data
+\usepackage{fancyhdr} % Required for the footer
+\usepackage{tabularx} % Nicer table style than the default
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{makecell}
+
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+\definecolor{headings}{HTML}{2b3856} % Dark red color for headings
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+
+% \usepackage[none]{hyphenat} % Prevents hyphenation in text
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\titlespacing*{\section}
+{0pt}{25pt}{5pt}
+
+
+\usepackage[margin=20mm,bottom=20mm]{geometry}
+
+\linespread{1.1} % Line spacing
+
+% Sections formatting
+\titleformat{\section}{
+  \color{headings}
+  \scshape\Large\raggedright
+}{}{0em}{}[\color{black}\titlerule]
+
+\pagestyle{fancy}
+
+% Prevents overfull hbox and vbox
+\hbadness=10000
+\hfuzz=50pt
+\vbadness=10000
+\vfuzz=50pt
+
+\newlength{\leftwidth}
+\setlength{\leftwidth}{3cm}
+
+\newcolumntype{G}{>{\raggedleft\arraybackslash}p{2cm}}
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}p{\leftwidth}}
+
+
+% add the symbols for email and phone contact data
+\fancyhead[r]{\VAR{name}}
+\fancyhead[l]{}
+\fancyfoot[c]{\thepage}
+
+\renewcommand\headrulewidth{0pt} % Size of the header rule
+\renewcommand\footrulewidth{0pt} % Size of the footer rule
+
+\usepackage[pdfborder={0 0 0},bookmarks=true,pdftitle={\VAR{name}'s CV},pdfauthor={\VAR{name}},pdfsubject={Curriculum Vitae},pdfcreator={www.cs.utah.edu/~philipbl},pdfproducer={www.cs.utah.edu/~philipbl}]{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=headings,
+}
+
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\thispagestyle{empty}
+
+
+%%%%%%  NAME AND CONTACT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+{\color{headings}\uppercase{\Huge{\textbf{\VAR{name}}}}}
+
+\begin{center}
+    \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+    \newcolumntype{L}{>{\raggedright\arraybackslash}X}
+    \begin{tabularx}{1\linewidth}{L R}
+        \\
+        \VAR{title}               & \href{mailto:\VAR{email}}{\VAR{email}}                      \\
+        % \VAR{address.name}        & \href{http://\VAR{web_site}}{\VAR{web_site | escape_latex}} \\
+        \VAR{address.name}        & \href{http://\VAR{github}}{\VAR{github}}                     \\
+        \VAR{company}             & \VAR{phone_number}                                          \\
+        \VAR{address.first_line}  & \\
+        \VAR{address.second_line} &
+    \end{tabularx}
+
+
+    \BLOCK{ macro table(items, width=3) -}
+    \BLOCK{ for item in items if not item.hidden }
+    \begin{longtable}[1\linewidth]{Zp{13cm}}
+        \VAR{ caller(item) }
+    \end{longtable}
+    \BLOCK{ endfor }
+    \BLOCK{- endmacro }
+
+    %%%%%%  RESEARCH INTERESTS  %%%%%%%%%%%%%%%%%%%%%%%%
+    % \section{Research Interests}
+    % \begin{flushleft}
+    %     \VAR{research_interests}
+    % \end{flushleft}
+
+    % \vspace{1mm}
+
+    %%%%%%  EDUCATION  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \section{Education}
+    \BLOCK{ call(item) table(education) }
+    \multirow{1}{\leftwidth}{\textbf{\makecell[r]{\VAR{item.start} to\\ \VAR{item.end}}}} & \textbf{\VAR{item.university}}, \emph{\VAR{item.degree}} \\
+    \BLOCK{ endcall }
+    \vspace{0.2in}
+
+%%%%%%  PROFESSIONAL EXPERIENCE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Professional Experience}
+\BLOCK{ call(item) table(professional) }
+  \textbf{\VAR{item.start} to}      & \textbf{\VAR{item.university}}, \emph{\VAR{item.position}} \\
+  \textbf{\VAR{item.end}} & \VAR{item.department} \\
+\BLOCK{ endcall }
+    
+\end{center}
+  
+
+%%%%%%  Publications  %%%%%%%%%%%%%%%
+\section*{Publications}
+\BLOCK{ for type in publications }
+  % Publication type
+  \BLOCK{if "Poster" not in type.name}
+  \subsection*{\VAR{type.name}}
+  \begin{enumerate}\BLOCK{if not loop.first}[resume, noitemsep, topsep=0pt]\BLOCK{endif}
+    \BLOCK{ for pub in type.publications }  
+    \item \BLOCK{if pub.status}(\textit{\VAR{pub.status}}) \BLOCK{endif}\VAR{bold_my_name(pub.authors)}, ``\VAR{pub.title}'', in \VAR{pub.series}, \BLOCK{if pub.publisher}\VAR{pub.publisher}, \BLOCK{endif}\BLOCK{if pub.pages}\VAR{pub.pages}, \BLOCK{endif}\VAR{pub.date}.\BLOCK{if pub.note}\textbf{\VAR{pub.note}}.\BLOCK{endif}
+    \BLOCK{ endfor }
+  \end{enumerate}
+  \BLOCK{endif}
+\BLOCK{ endfor }
+
+
+%%%%%% CITATIONS  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Citations}
+Citations: \VAR{citations.citations} \\
+h-index: \VAR{citations.hindex} \\
+i10-index: \VAR{citations.i10index}
+
+
+
+%%%%%%  Professional Activities  %%%%%%%%%%%%%%%
+\section{Professional Activities}
+\BLOCK{for activity_type in service}
+  \noindent\textbf{\VAR{activity_type.type}} \\
+  \BLOCK{if activity_type.venues}
+    \BLOCK{for item in activity_type.venues}
+    \VAR{item.name} - \VAR{item.years}  \\
+    \BLOCK{endfor}
+    \BLOCK{endif}
+
+    \vspace{-0.08in}
+\BLOCK{endfor}
+
+\begin{center}
+
+%%%%%%  Grants  %%%%%%%%%%%%%%%
+\section{Grants}
+\begin{longtable}[1\linewidth]{Gp{15cm}}
+    \BLOCK{ for item in grants.funded }
+    \textbf{\VAR{item.start}\BLOCK{if item.end} to\BLOCK{endif} \VAR{item.end}} & \VAR{bold_my_name(item.authors)}, ``\VAR{item.title}'' \textit{\VAR{ item.agency }}, \$\VAR{ item.amount }  \vspace{0.1in} \\ 
+    \BLOCK{ endfor }
+
+\end{longtable}
+
+
+
+    % %%%%%%  Projects  %%%%%%%%%%%%%%%
+    % \section{Open Source Projects}
+    % \BLOCK{ call(item) table(projects) }
+    % \textbf{\VAR{item.start}}         & \href{\VAR{item.link}}{\textbf{\VAR{item.title}}} \\
+    % & \VAR{item.description | md2latex} \\
+    % \BLOCK{ endcall }
+
+
+\end{center}
+\end{document}
