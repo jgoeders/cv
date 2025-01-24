@@ -8,8 +8,8 @@ RENDERED_TEX=build/rendered.tex
 
 IN_ENV=. .venv/bin/activate;
 
-$(PDF_NAME).pdf: $(RENDERED_TEX)
-	cd $(BUILD_DIR) && pdflatex -jobname=$(PDF_NAME) -output-directory=. ../$^
+$(PDF_NAME).pdf: .venv/bin/activate $(RENDERED_TEX) 
+	cd $(BUILD_DIR) && pdflatex -jobname=$(PDF_NAME) -output-directory=. ../$(word 2, $^)
 	cp $(BUILD_DIR)/$(PDF_NAME).pdf .
 
 $(RENDERED_TEX): $(BUILD_DIR) $(TEMPLATE_TEX) $(DATA_YML) $(BUILD_PY)
