@@ -288,6 +288,11 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
+      - authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
+        title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
+        series: Radiation Effects on Components and Systems Conference (RADECS)
+        date: Sep 2024
+        
       - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
         title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
         series: International Conference on Field Programmable Technology (FPT)
