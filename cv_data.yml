@@ -119,12 +119,12 @@ publications:
       - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
         title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-        date: 2024
+        date: Dec 2024
 
       - authors: Nathan Harris, Wesley Stirk, Dolores Black, Jeff Black, Michael Wirthlin, and Jeffrey Goeders
         title: Dynamic Testing of a Commercial FRAM Device Under Gamma Ray Dose and Neutron Beam
         series: IEEE Transactions on Nuclear Science (TNS)
-        date: 2024
+        date: Mar 2024
 
       - authors: Wesley Stirk, Dolores A. Black, Jeffrey D. Black, Matthew Breeding, Roy P. Cuoco, Mike Wirthlin, and Jeffrey Goeders
         title: The Effects of Gamma Ray Integrated Dose on a Commercial 65-nm SRAM Device
