@@ -55,91 +55,6 @@ professional:
     position: Assistant Professor
     department: Department of Electrical and Computer Engineering
 
-# research_experience:
-#   - start: October 2018
-#     end: Present
-#     university: Brigham Young University
-#     lab: Assistant Professor
-#     projects:
-#       - title: Department of Electrical and Computer Engineering
-#         description: Director of the Network Enhanced Technologies (NET) Lab.
-
-#   - start: October 2019
-#     end: Present
-#     university: University of Utah
-#     lab:
-#     projects:
-#       - title: Member of the Center of Excellence for Exposure Health Infromatics (CEEHI)
-#         description: CEEHI is a multi-disciplinary center focused on the next generation of exposure health research through use and development of novel informatics methods and solutions.
-
-#   - start: January 2013
-#     end: October 2018
-#     university: University of Utah
-#     lab: Advanced Networks Systems Research Lab
-#     projects:
-#       - title: PRISMS
-#         link: http://nursing.utah.edu/prisms/
-#         description: |
-#           Designed and built a framework for easy deployment of IoT in-home
-#           sensor network for epidemiologists. The framework uses Raspberry
-#           Pis and open source software to interoperate with many different
-#           types of IoT sensors. It allows for easy experimentation and data
-#           collection. The system has been deployed in multiple homes in
-#           Utah as part of a pediatric asthma research study.
-
-#       - title: PRISMS Management Tools
-#         link: https://github.com/VDL-PRISM
-#         description: |
-#           As part of the PRISMS project, I wrote applications to manage
-#           live deployments. These tools include a sensor status dashboard,
-#           an easy to use tool to export data from the database, peak detect
-#           algorithm for anomaly detection, a participant text notifications
-#           system to alert and receive feedback from participants, and an API
-#           for external tools to query data.
-
-#       - title: STRAP
-#         link: https://github.com/philipbl/unassociated_transfer
-#         description: |
-#           Built novel approach to securely share wireless network name and
-#           password with unassociated wireless sensors by encoding data into
-#           Ethernet source and destination addresses. This greatly speeds up
-#           the time it takes to connect IoT devices to a home's wireless
-#           network.
-
-#       - title: mobiLivUp
-#         description: |
-#           Designed and built a system for live streaming video by
-#           cooperatively using multiple cellular devices through WiFi Direct on
-#           Android devices. Created prototype Android application and tested in
-#           real world environment, showing improvements to traditional live
-#           video streaming. Paper published at ITC 28.
-
-#   - start: April 2011
-#     end: April 2012
-#     university: Brigham Young University
-#     lab: Internet Research Lab
-#     projects:
-#       - title: WiFu
-#         link: https://internet.byu.edu/research/wifu
-#         description: >
-#           Contributed to framework, ``WiFu'', for experimenting on wireless
-#           transport protocols. Designed new TCP variant protocol specific for
-#           wireless mesh networks. Used wireless mesh network to run experiments
-#           and benchmark performance of different protocols.
-
-#   - start: April 2010
-#     end: April 2011
-#     university: Brigham Young University
-#     lab: FPGA Lab
-#     projects:
-#       - title: HMFlow and RapidSmith
-#         link: http://rapidsmith.sourceforge.net
-#         description: >
-#           Helped develop HMFlow framework for rapid prototyping on FPGAs.
-#           Designed and developed fast loading and saving of serialized
-#           data structures. Created complex data structures to model FPGA
-#           designs.
-
 experience:
   - start: Jan 2011 to Jun 2016
     title: Teaching Assistant
@@ -173,9 +88,9 @@ volunteer_experience:
     description: Salt Lake City, UT
 
 citations:
-  hindex: 14
-  i10index: 17
-  citations: 1362
+  hindex: 15
+  i10index: 19
+  citations: 1473
 
 publications:
   # - name: Under Review
@@ -292,7 +207,12 @@ publications:
         title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
         series: Radiation Effects on Components and Systems Conference (RADECS)
         date: Sep 2024
-        
+
+      - authors: Hayden Cook and Jeffrey Goeders
+        title: Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA
+        series: International Conference on Field-Programmable Logic and Applications (FPL)
+        date: Sep 2024
+
       - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
         title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
         series: International Conference on Field Programmable Technology (FPT)
@@ -309,11 +229,6 @@ publications:
         series: International Conference on Field-Programmable Logic and Applications (FPL)
         pages: 311-316
         date: Sep 2023
-
-      - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
-        title: "Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison"
-        series: International Conference on Field-Programmable Technology (FPT)
-        date: Dec 2023
 
       - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
         title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF"
@@ -474,42 +389,12 @@ publications:
         date: Jul 2018
         packet_desc: Collaborations with colleague, Brad Hutchings.  I provided regular consultation on this work, and helped with writing the paper.
 
-  - name: Peer-Reviewed International Oral Presentations  
+  - name: Other Publications
     publications:
-      - authors: Wesley Stirk, Jeffrey Goeders, Michael Wirthlin, Jeff Black, Dolores Black, and Roy Cuoco.
-        title: The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device
-        series: Radiation Effects on Components and Systems (RADECS)
-        date: Oct 2022
-
-      - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
-        title: Understanding How Software Properties Impact the Effectiveness of Automated Software Fault Tolerance
-        series: Nuclear and Space Radiation Effects Conference (NSREC)
-        date: Dec 2020
-        packet_desc: Work done by my Master's student, Benjamin.  
-
-      - authors: Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
-        title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
-        series: Nuclear and Space Radiation Effects Conference (NSREC)
-        date: Jul 2019
-        packet_desc: Work done by my Master's student, Benjamin.  
-
-  - name: Peer-Reviewed International Poster Presentations
-    publications:
-      - authors: Wesley Stirk, Michael Wirthlin, and Jeffrey Goeders
-        title: The Effects of Gamma Ray Dose on Dynamic Operation of a Commercial FRAM Device 
-        series: Radiation Effects on Components and Systems (RADECS)
-        date: Oct 2023
-
-      - authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeffrey Goeders, and Michael Wirthling
-        title: Comparison of Neutron Radiation Testing Approaches for a Complex SoC
-        series: Nuclear and Space Radiation Effects Conference (NSREC)
-        date: Jul 2022
-
-      - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
-        title: Microcontroller Compiler-Assisted Software Fault Tolerance
-        series: Nuclear and Space Radiation Effects Conference (NSREC)
-        date: Jul 2018
-        packet_desc: Work done by my Master's student, Matthew.  
+      - authors: Weston Smith, Zachary Driskill, Jeffrey Goeders, and Michael Wirthlin
+        title: Digital Design Education Using an Open-Source, Cloud-Based FPGA Toolchain
+        series: Intermountain Engineering, Technology and Computing Conference (i-ETC)
+        date: May 2024
 
 
 service:
@@ -625,10 +510,110 @@ talks:
       
   - name: Conference Talks
     talks:
+      - authors: Hayden Cook and Jeffrey Goeders
+        title: Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA
+        location: International Conference on Field-Programmable Logic and Applications (FPL)
+        date: Sep 2024
+
+      - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
+        title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
+        location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        date: May 2024
+
+      - authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
+        title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
+        location: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2023
+
+      - authors: Hayden Cook, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
+        title: "Improving the Reliability of FPGA CRO PUFs"
+        location: International Conference on Field-Programmable Logic and Applications (FPL)
+        pages: 311-316
+        date: Sep 2023
+
+      - authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
+        title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF"
+        location: International Conference on Field-Programmable Technology (FPT)
+        date: Dec 2022
+        pages: 1-10
+
+      - authors: Wesley Stirk, Jeffrey Goeders, Michael Wirthlin, Jeff Black, Dolores Black, and Roy Cuoco.
+        title: The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device
+        location: Radiation Effects on Components and Systems (RADECS)
+        date: Oct 2022
+
+      - authors: Benjamin James, and Jeffrey Goeders
+        title: Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems
+        location: Design, Automation and Test in Europe Conference (DATE)
+        date: Feb 2021
+        packet_desc: Work completed by my Master's student, Benjamin.  He authored the majority of the article under my supervision.
+
+      - authors: Benjamin James, Michael Wirthlin, and Jeffrey Goeders
+        title: Understanding How Software Properties Impact the Effectiveness of Automated Software Fault Tolerance
+        location: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Dec 2020
+        packet_desc: Work done by my Master's student, Benjamin.  
+
+      - authors: Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings
+        title: Using Novel Configuration Techniques for Accelerated FPGA Aging
+        location: International Conference on Field-Programmable Logic and Applications (FPL)
+        date: Aug 2020
+        packet_desc: Work primarily completed by a Master's student, Tanner (supervised by Brad Hutchings), and assisted by my undergraduate students Hayden, Wesley and Robert.  We jointly authored the paper.
+
+      - authors: Matthew Ashcraft and Jeffrey Goeders
+        title: Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
+        location: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2019
+        packet_desc: Work completed by my PhD student, Matthew.  He primarily authored the paper with my help.
+
+      - authors: Wesley Stirk and Jeffrey Goeders
+        title: Implementation and Design Space Exploration of a Turbo Decoder in High-Level Synthesis
+        location: International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+        date: Dec 2019
+        packet_desc: Work completed by my Undergraduate student Wesley.  He and I authored the paper jointly.
+
+      - authors: Daniel Holanda Noronha, Ruizhe Zhao, Zhiqiang Que, Jeffrey Goeders, Wayne Luk and Steve Wilton
+        title: An Overlay for Rapid FPGA Debug of Machine Learning Applications
+        location: International Conference on Field Programmable Technology (FPT)
+        date: Dec 2019
+        packet_desc: Collaborative work between myself, and researchers at UBC and Imperial College London.  This builds on my PhD work. 
+
+      - authors: Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
+        location: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2019
+        packet_desc: Work done by my Master's student, Benjamin.  
+
+      - authors: Daniel Holanda Noronha, Ruizhe Zhao, Jeffrey Goeders, Wayne Luk, and Steven J.E. Wilton
+        title: On-chip FPGA Debug Instrumentation for Machine Learning Applications
+        location: International Symposium on Field-Programmable Gate Arrays (FPGA)
+        pages: pp. 110-115
+        date: Feb 2019
+        packet_desc: This is the first work demonstrating on-chip debug techniques for machine learning circuits.  This is collaborative work between myself, and researchers at UBC and Imperial College London.  This builds on my PhD work.
+
+      - authors: Matthew Ashcraft and Jeffrey Goeders
+        title: Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
+        location: International Conference on Field Programmable Technology (FPT)
+        pages: pp. 354-357
+        date: Dec 2018
+        packet_desc: This is the first work that looks at debugging of traditional CPUs executing in tandem with custom synthesized hardware accelerators.  This is the first publication of a new project started with my PhD student Matthew.
+
+      - authors: Al-Shahna Jamal, Jeffrey Goeders and Steve Wilton
+        title: An FPGA Overlay Architecture Supporting Rapid Implementation of Functional Changes during On-Chip Debug
+        location: International Conference on Field Programmable Logic and Applications (FPL)
+        date: Aug 2018
+        packet_desc: Collaboration with University of British Columbia, extending my PhD work.  I provided regular consultation, code development, and article editing for this work.
+
       - authors: Jeffrey Goeders, Tanner Gaskin, and Brad Hutchings
         title: Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
         location: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
         date: May 2018
+
+      - authors: Al-Shahna Jamal, Jeffrey Goeders, and Steven J.E. Wilton
+        title: Architecture Exploration for HLS-Oriented FPGA Debug Overlays
+        location: International Symposium on Field-Programmable Gate Arrays (FPGA)
+        date: Feb 2018
+        packet_desc: Collaboration with University of British Columbia, extending my PhD work.  I provided regular consultation, code development, and article editing for this work.
         
       - authors: Jeffrey Goeders
         title: Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
@@ -705,6 +690,35 @@ talks:
         title: "VersaPower: Power Estimation for Diverse FPGA Architectures"
         location: "Cascadia: A joint workshop of UBC, SFU, and UWash on FPGA Research, SFU"
         date: Aug 2012
+  
+  - name: Poster Presentations
+    talks:
+      - authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
+        title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
+        location: Radiation Effects on Components and Systems Conference (RADECS)
+        date: Sep 2024
+
+      - authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, and Jeffrey Goeders
+        title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"
+        location:   Physical Assurance and Inspection of Electronics Conference (PAINE)
+        pages: 26-32
+        date: Oct 2023
+
+      - authors: Wesley Stirk, Michael Wirthlin, and Jeffrey Goeders
+        title: The Effects of Gamma Ray Dose on Dynamic Operation of a Commercial FRAM Device 
+        location: Radiation Effects on Components and Systems (RADECS)
+        date: Oct 2023
+
+      - authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeffrey Goeders, and Michael Wirthling
+        title: Comparison of Neutron Radiation Testing Approaches for a Complex SoC
+        location: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2022
+
+      - authors: Matthew Bohman, Benjamin James, Michael Wirthlin, Heather Quinn, and Jeffrey Goeders
+        title: Microcontroller Compiler-Assisted Software Fault Tolerance
+        location: Nuclear and Space Radiation Effects Conference (NSREC)
+        date: Jul 2018
+        packet_desc: Work done by my Master's student, Matthew.
 
   - name: Artifact Demonstrations
     talks: 
@@ -758,6 +772,7 @@ teaching_instructor:
       - Fall 2021
       - Fall 2022
       - Winter 2024
+      - Winter 2025
 
   - code: ECEN 522R
     title: High-Level Digital Design Automation
@@ -769,12 +784,18 @@ teaching_instructor:
     terms:
       - Fall 2023
 
+  - code: ECEN 522R
+    title: Hardware Security
+    terms:
+      - Fall 2024
+
   - code: ECEN 625
     title: Compilation Strategies for High-Performance Programs 
     terms:
       - Winter 2019
       - Winter 2021
       - Winter 2023
+      - Winter 2025
 
   - code: ECEN 629
     title: Reconfigurable Computing Systems 
@@ -802,6 +823,17 @@ teaching_ta:
     appointments: 2
 
 course_development:
+  - name: "ECEN 522R: Hardware Security (BYU)"
+    url: https://byu-cpe.github.io/ecen522r-hw-security/
+    bullets:
+      - Developed a new course on hardware security, focusing on the security of digital circuits and systems.
+      - "The course covers a wide range of topics, including side-channel attacks, fault injection attacks, hardware Trojans, and secure hardware design."
+      - Created weekly labs based on content from the Univerity of Florida
+
+  - name: "ECEN 522R: ASIC VLSI CAD Tools (BYU)"
+    bullets:
+      - Developed a new course on ASIC VLSI CAD tools, giving students experience with both open-source (OpenROAD, Yosys) and commercial (Cadence Innovus)
+
   - name: "ECEN 427: Embedded System Design (BYU)"
     url: https://byu-cpe.github.io/ecen427/
     bullets:
