@@ -468,6 +468,11 @@ service:
 talks:
   - name: Invited Talks
     talks:
+      - authors: Jeffrey Goeders
+        title: Low-Level Security and Assurance in FPGA Systems 
+        location: CityU Architecture Lab for Arithmetic and Security (CALAS), City University of Hong Kong
+        date: Apr 2025
+
       - authors: Mike Wirthlin and Jeffrey Goeders
         title: Radiation Testing Approaches for Commercial System-on-Chip (SoC) Devices 
         location: Office of the Under Secretary of Defense for Research \& Engineering
