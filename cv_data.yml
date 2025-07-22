@@ -89,8 +89,8 @@ volunteer_experience:
 
 citations:
   hindex: 15
-  i10index: 19
-  citations: 1473
+  i10index: 21
+  citations: 1526
 
 publications:
   # - name: Under Review
@@ -400,6 +400,11 @@ publications:
 service:
   - type: Senior Member, IEEE
   - type: Senior Member, ACM
+
+  - type: Finance Chair
+    venues:
+      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2026
   
   - type: Workshop Organizer
     venues:
