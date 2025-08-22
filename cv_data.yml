@@ -116,6 +116,11 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
+      - title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
+        authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
+        series: IEEE Transactions on Nuclear Science
+        date: March 2025
+
       - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
         title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
@@ -203,6 +208,18 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
+      - title: RarePlanes Detection Using YOLOv5 on the Versal Adaptive SoC
+        authors: Jacob Brown, Colton Yates, Jeffrey Goeders, Michael Wirthlin
+        series: Aerospace Conference
+        pages: 1-9
+        date: March 2025
+        
+      - title: "Open-Source Circuit Radiation Effects (OSCRE) Simulation Framework: Design and Applications"
+        authors: Collin Lambert, Jacob Anderson, David Nichols, Parker Allred, Sharisse Poff, Jeffrey Goeders, Michael Wirthlin, Shiuh-Hua Wood Chiang
+        series: International Symposium on Circuits and Systems (ISCAS)
+        pages: 1-5
+        date: May 2025
+
       - authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
         title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
         series: Radiation Effects on Components and Systems Conference (RADECS)
