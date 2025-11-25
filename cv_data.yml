@@ -208,17 +208,24 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
-      - title: RarePlanes Detection Using YOLOv5 on the Versal Adaptive SoC
-        authors: Jacob Brown, Colton Yates, Jeffrey Goeders, Michael Wirthlin
-        series: Aerospace Conference
-        pages: 1-9
-        date: March 2025
+
+      - title: "Neurocore: A GNN Approach to Configurable IP Core Identification in FPGA Netlists"
+        authors: Dallin Dahl, Keenan Faulkner, James Usevitch and Jeffrey Goeders
+        series: International Conference on Field-Programmable Technology (FPT)
+        date: Dec 2025
+
         
       - title: "Open-Source Circuit Radiation Effects (OSCRE) Simulation Framework: Design and Applications"
         authors: Collin Lambert, Jacob Anderson, David Nichols, Parker Allred, Sharisse Poff, Jeffrey Goeders, Michael Wirthlin, Shiuh-Hua Wood Chiang
         series: International Symposium on Circuits and Systems (ISCAS)
         pages: 1-5
         date: May 2025
+        
+      - title: RarePlanes Detection Using YOLOv5 on the Versal Adaptive SoC
+        authors: Jacob Brown, Colton Yates, Jeffrey Goeders, Michael Wirthlin
+        series: Aerospace Conference
+        pages: 1-9
+        date: March 2025
 
       - authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
         title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
