@@ -73,15 +73,15 @@ def venue_info(series):
     elif venue == "DATE":
         s = "Large European conference related to testing of electronic devices.  Well regarded conference."
     elif venue == "FPL":
-        s = "FPL Conference (One of the top few conferences in my field). Acceptance rates usually ~30\%."
+        s = r"FPL Conference (One of the top few conferences in my field). Acceptance rates usually ~30\%."
     elif venue == "FPT":
-        s = "FPT Conference (One of the top few conferences in my field). Acceptance rates usually ~30\%."
+        s = r"FPT Conference (One of the top few conferences in my field). Acceptance rates usually ~30\%."
     elif venue in ("ReConFig", "ARC"):
         s = venue + " (Secondary conference in my field)"
     elif venue == "FPGA":
-        s = "FPGA Conference (Regarded as the top conference in my field). Acceptance rates usually 20-25\%"
+        s = r"FPGA Conference (Regarded as the top conference in my field). Acceptance rates usually 20-25\%"
     elif venue == "FCCM":
-        s = "FCCM Conference (One of the top few conferences in my field). Acceptance rates usually 20-30\%"
+        s = r"FCCM Conference (One of the top few conferences in my field). Acceptance rates usually 20-30\%"
     elif venue == "IVSW":
         s = "IVSW Workshop (smaller workshop, but one of the few related to hardware security)."
     elif venue == "NSREC":
@@ -127,11 +127,11 @@ def main():
     args = parser.parse_args()
 
     env = jinja2.Environment(
-        block_start_string="\BLOCK{",
+        block_start_string=r"\BLOCK{",
         block_end_string="}",
-        variable_start_string="\VAR{",
+        variable_start_string=r"\VAR{",
         variable_end_string="}",
-        comment_start_string="\#{",
+        comment_start_string=r"\#{",
         comment_end_string="}",
         # line_statement_prefix="%%",
         line_comment_prefix="%#",

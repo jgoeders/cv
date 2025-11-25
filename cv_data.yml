@@ -89,8 +89,8 @@ volunteer_experience:
 
 citations:
   hindex: 15
-  i10index: 19
-  citations: 1473
+  i10index: 21
+  citations: 1526
 
 publications:
   # - name: Under Review
@@ -120,6 +120,11 @@ publications:
         title: "VTR 9: Open-source CAD for fabric and beyond FPGA architecture exploration"
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
         date: Aug 2025
+        
+      - title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
+        authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
+        series: IEEE Transactions on Nuclear Science
+        date: March 2025
 
       - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
         title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
@@ -208,6 +213,18 @@ publications:
 
   - name: Peer-Reviewed International Conference Publications
     publications:
+      - title: RarePlanes Detection Using YOLOv5 on the Versal Adaptive SoC
+        authors: Jacob Brown, Colton Yates, Jeffrey Goeders, Michael Wirthlin
+        series: Aerospace Conference
+        pages: 1-9
+        date: March 2025
+        
+      - title: "Open-Source Circuit Radiation Effects (OSCRE) Simulation Framework: Design and Applications"
+        authors: Collin Lambert, Jacob Anderson, David Nichols, Parker Allred, Sharisse Poff, Jeffrey Goeders, Michael Wirthlin, Shiuh-Hua Wood Chiang
+        series: International Symposium on Circuits and Systems (ISCAS)
+        pages: 1-5
+        date: May 2025
+
       - authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
         title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
         series: Radiation Effects on Components and Systems Conference (RADECS)
@@ -405,6 +422,11 @@ publications:
 service:
   - type: Senior Member, IEEE
   - type: Senior Member, ACM
+
+  - type: Finance Chair
+    venues:
+      - name: International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        years: 2026
   
   - type: Workshop Organizer
     venues:
@@ -473,6 +495,11 @@ service:
 talks:
   - name: Invited Talks
     talks:
+      - authors: Jeffrey Goeders
+        title: Low-Level Security and Assurance in FPGA Systems 
+        location: CityU Architecture Lab for Arithmetic and Security (CALAS), City University of Hong Kong
+        date: Apr 2025
+
       - authors: Mike Wirthlin and Jeffrey Goeders
         title: Radiation Testing Approaches for Commercial System-on-Chip (SoC) Devices 
         location: Office of the Under Secretary of Defense for Research \& Engineering
