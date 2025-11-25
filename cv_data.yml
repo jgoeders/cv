@@ -116,6 +116,11 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
+      - authors: Mohamed A Elgammal, Amin Mohaghegh, Soheil Gholami Shahrouz, Fatemehsadat Mahmoudi, Fahrican Koşar, Kimia Talaei, Joshua Fife, Daniel Khadivi, Kevin Murray, Andrew Boutros, Kenneth B Kent, Jeffrey Goeders, and Vaughn Betz
+        title: "VTR 9: Open-source CAD for fabric and beyond FPGA architecture exploration"
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: Aug 2025
+
       - authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
         title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
         series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
