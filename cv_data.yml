@@ -116,6 +116,11 @@ publications:
 
   - name: Peer-Reviewed Journal Articles
     publications:
+      - authors: Mohamed A Elgammal, Amin Mohaghegh, Soheil Gholami Shahrouz, Fatemehsadat Mahmoudi, Fahrican Koşar, Kimia Talaei, Joshua Fife, Daniel Khadivi, Kevin Murray, Andrew Boutros, Kenneth B Kent, Jeffrey Goeders, and Vaughn Betz
+        title: "VTR 9: Open-source CAD for fabric and beyond FPGA architecture exploration"
+        series: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+        date: Aug 2025
+        
       - title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
         authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
         series: IEEE Transactions on Nuclear Science
